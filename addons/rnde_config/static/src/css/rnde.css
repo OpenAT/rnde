@@ -54,6 +54,29 @@ auf die Größe des Iframes und nicht auf die darüberliegende Seitengröße.
     text-decoration: none;
 }
 
+#website_sale_donate .btn-primary {
+    color: white;
+    background-color: #d40123;
+    border-color: #bd001e;
+}
+#website_sale_donate .btn-primary:hover {
+    color: white;
+    background-color: #bd001e;
+    border-color: #d40123;
+}
+#wsd_checkout_form label.control-label.mandatory.text-danger  {
+    color: #d40123;
+}
+#website_sale_donate .glyphicon-info-sign {
+    color: white;
+    background-color: #d40123;
+    border-color: #bd001e;
+}
+#website_sale_donate .glyphicon-info-sign:hover {
+    color: white;
+    background-color: #bd001e;
+    border-color: #d40123;
+}
 body {
     color: black;
     /*
@@ -145,7 +168,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 /* jquery-validate control-icons (green arrow or red cross) */
 #wsd_checkout_form .form-control-feedback {
-    top: 30px !important;
+    top: 25px !important;
 }
 
 #wsd_checkout_form .billing-fields .form-control-feedback {
@@ -412,6 +435,7 @@ body[data-catid="2"] .ppt_opc #wsd_checkout_form > div > h3:after {
 }
     body #website_sale_donate {
         -webkit-animation: fadeIn 2s;
+        background-color: #eeeeee57 !important;
     }
     @-webkit-keyframes fadeIn {
         0% { opacity: 0; }

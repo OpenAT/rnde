@@ -1,0 +1,456 @@
+/* --------------- */
+/* BOOTSTRAP FIXES */
+/* --------------- */
+
+/*
+main .container {
+    width: 100%;
+    max-width: 1024px;
+}
+*/
+/* Media width fixes */
+/* TODO: change and understand max container sizes: http://getbootstrap.com/customize/#container-sizes */
+/* Die Mediaselektoren beziehen sich auf die Iframe Größe z.B. 740px. Die überliegende Seite hat aber gerade 1440px...
+Wird nun die Seite schmäler und verkleinert aufgrund Responsive Design den Iframe so geht der Media selektor
+auf die Größe des Iframes und nicht auf die darüberliegende Seitengröße.
+*/
+/*
+@media (min-width: 773px) {
+    .container {
+        width: 1155px;
+        width: inherit;
+    }
+}
+@media (min-width: 600px) {
+    .container {
+        width: 955px;
+        width: inherit;
+    }
+}
+@media (min-width: 500px) {
+    .container {
+        width: 735px;
+        width: inherit;
+    }
+}
+*/
+/*
+.row {
+     margin-left: 0;
+     margin-right: 0;
+}
+*/
+
+/* --------------- */
+/* EXTENDED DESIGN */
+/* --------------- */
+
+/* Links */
+/*a { text-decoration: underline; }*/
+/*a:hover { background-color: #3f3f3f; }*/
+
+/* Buttons */
+.btn {
+    text-decoration: none;
+}
+
+body {
+    color: black;
+    /*
+    font-family: "MuseoSans",Helvetica,Arial,sans-serif;
+    */
+    /*font-size: 1.5em;*/
+    /*
+    font-weight: normal;
+    font-style: normal;
+    */
+}
+/* BACKGROUND SNIPPED COLORS */
+.oe_grey { background-color: #eee !important; }
+.oe_grey_light { background-color: #eeeeeec7 !important; }
+.oe_red { background-color: #d40123 !important; }
+.oe_white { background-color: #ffffff !important; }
+
+/* Headers */
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-weight: bold;
+}
+.oe_website_sale h1 {
+    margin-top: 25px !important;
+    margin-bottom: 12.5px !important;
+}
+#product_desc_short_top h1 {
+    margin-top: 25px;
+    margin-bottom: 12.5px;
+}
+
+/* Modal Box Trigger */
+.btn-link.information-modal-box-trigger:hover {
+    color: #db1921;
+}
+
+/* Nav-Tabs */
+/*
+.nav_tabs>li {
+    border: 1px #3f3f3f;
+}
+.nav_tabs > ul {
+    border: 1px solid black;
+    padding-bottom: 2px;
+}
+.nav>li>a:hover {
+    background-color: #3f3f3f;
+}
+#blog_right_column .nav>li>a:hover {
+    background-color: #0f921a;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover,
+.nav-tabs>li.active>a:focus {
+    background-color: #fff;
+}
+.tab-content {
+    background-color: #fff;
+    padding-bottom: 2em;
+}
+.tab-pane { padding: 1em; }
+
+#top_menu > li.active > a {
+    color: #00a8c6;
+}
+*/
+/*DROPDOWN MENU BEGIN */
+/*
+.dropdown-menu {
+    background-color: rgba(0, 0, 0, 0.75);
+}
+*/
+
+/*.dropdown-menu>li>a {*/
+    /*color: white;*/
+/*
+    font-family: "MuseoSans500-Regular",Helvetica,Arial,sans-serif;
+}
+.dropdown-menu>li>a:hover {
+    background-color: rgba(128, 128, 128, 0.25);
+    background-image: none;
+    color: white;
+
+}
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus {
+    background-color: rgba(128, 128, 128, 0.25);
+    background-image: none;
+}
+*/
+/*Dropdown menu END */
+
+/* jquery-validate control-icons (green arrow or red cross) */
+#wsd_checkout_form .form-control-feedback {
+    top: 30px !important;
+}
+
+#wsd_checkout_form .billing-fields .form-control-feedback {
+    right: 15px;
+}
+
+/* Main Navigation: Navbar */
+/*
+.navbar.navbar-static-top ul.nav > li.divider {
+    height: 60px;
+}
+header a.navbar-brand img {
+    margin-top: 36px;
+}
+*/
+/* Checkout Box */
+/*
+.price_donate {
+    margin-top: 1em;
+}
+
+#price_donate {
+    color: inherit;
+}
+
+
+@media (min-width: 500px) {
+    .form-inline .form-group {
+        display: inherit;
+    }
+}
+@media (max-width: 500px) {
+    #price_donate { font-size: 0.7em !important; }
+}
+*/
+/* Media Selektor Tablet Special 3er Block Verhalten iPads (portrait) */
+/*
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+  main .container img {
+    max-width: 50% !important;
+    float: right;
+  }
+}
+*/
+/**********
+iPad 3 Pixel Ratio
+**********/
+/*
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+*/
+/* Styles */
+/*}*/
+
+/* checkoutform
+TODO Check ob diese Settings auch über BOOTSTRAP einstellbar sind
+*/
+#wsd_checkout_form .form-control {
+    padding: auto;
+}
+.row .wsd_opc_delivery {
+    display: none;
+}
+#website_sale_login_info {
+    display: none;
+}
+/*
+@media (max-width: 740px) {
+.col-md-push-8 {
+    left: initial;
+}
+.col-md-offset-1 {
+    margin-left: initial;
+}
+#wsd_checkout_page_right_column {
+    width: 100%;
+    float:left;
+}
+#wsd_checkout_page_left_column {
+    right: initial;
+}
+.col-md-8 {
+    width: 100%;
+}
+*/
+/* Warenkorb*/
+/*
+#right_column {
+    display:none;
+}
+*/
+/*}*/
+/*
+#footer {
+    display: none;
+}
+*/
+
+footer {
+    background: white !important;
+    /*color: #0f921a !important;*/
+    color: grey !important;
+}
+/* Opensource logo rechts unten begin */
+#wrapwrap > footer > div.container.mt16.mb8 > div.pull-right {
+    color: grey;
+}
+
+#wrapwrap > footer > div.container.mt16.mb8 > div.text-muted {
+    color: grey !important;
+}
+#wrapwrap > footer > div.container.mt16.mb8 > div.pull-right > a.label.label-danger {
+    background-color: inherit;
+    color: #red;
+    text-decoration: none;
+}
+
+#wrapwrap > footer > div.container.mt16.mb8 > div.pull-right a {
+    color: #white;
+    text-decoration: none;
+}
+/* Opensource logo rechts unten end */
+/*
+footer a {
+    color: grey;
+    text-decoration: underline;
+}
+footer a:hover, a:focus {
+*/
+    /*color: #0f921a;*/
+    /*mix-blend-mode: difference;*/
+/*
+    color: white;
+}
+main a:hover, a:focus {
+    color: black;
+}
+
+footer > div.container.mt16.mb8 > div.text-muted {
+  color: #0f921a;
+}
+
+main .container {
+    max-width: 1170px;
+    margin: auto;
+    display: block !important;
+}
+
+main .container img {
+    max-width: 100%;
+}
+
+header a.navbar-brand img {
+    max-height: 90px !important;
+}
+header a.navbar-brand img {
+    margin-top: 10px;
+}
+    #popupbox .container.popup_box {
+    background: transparent;
+    border: none;
+    box-shadow: 0 0 10px black !important;
+    padding-bottom: 10px !important;
+}
+    .ppt_opc #wsd-checkout-box img.product-image {
+        width: auto !important;
+    }
+*/
+/*
+#top_menu > li:nth-child(1) > a {
+    display: none;
+    }
+#top_menu > li.active > a {
+    color: #55ab26;
+}
+.oe_structure .jumbotron {
+
+    max-width: 1170px;
+    margin: auto;
+}
+
+.has-feedback .form-control {
+    padding-right: 2px;
+}
+*/
+/*
+.ppt_donate p {
+    mix-blend-mode: overlay lighten;
+}
+*/
+
+[data-name='frst-submit-button'] {
+    max-width: 100% ;
+}
+[data-name='ogonedadi-submit-button'] {
+    max-width: 100%;
+}
+
+/* One Page Checkout */
+.ppt_opc h3.amount_title {
+    text-align: center;
+}
+
+/*
+.ppt_opc #website_sale_donate .oe_price_h4 {
+    width: 20%;
+    margin: auto;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+}
+*/
+.ppt_opc .row.ppt_opc-small_cart {
+    display: none;
+}
+/* OPC Überschreiben überschrift "Spendenhöhe" */
+/* Breich Mitgliedschaften */
+/* better Solution via JS and replace text, soon replaced by Odoo o8r68 Backend Solution */
+/* Update of website_sale_donate und website_sale_donate.checkoutbox noupdate */
+/*
+body[data-catid="2"] .ppt_opc #wsd_checkout_form > div > h3 > span {
+  display: none;
+}
+
+body[data-catid="2"] .ppt_opc #wsd_checkout_form > div > h3:after {
+  content: 'Jährliche Beitragshöhe';
+    font-size: 35px;
+}
+*/
+/* Login Buttons */
+#top_menu > li.divider {
+  display: none;
+}
+#top_menu > li:last-child {
+  display: none;
+}
+/*
+#wsd_checkout_steps_nav > div > div > a.btn.btn-primary.navbar-btn {
+  display: none;
+}
+*/
+/* Login buttons end */
+/* Shopping Cart Mini Icon */
+/*  .fa-shopping-cart:before {*/
+    /*content: "\f16b";*/
+/*    content: "\f004";
+  }*/
+[data-name='frst-submit-button'] {
+  max-width: initial !important;
+        text-align: center;
+      margin:auto;
+        display: block;
+}
+[data-name='ogonedadi-submit-button'] {
+  max-width: initial !important;
+}
+[data-name='ogonedadi-submit-button'] {
+    max-width: initial !important;
+    min-width: 150px !important;
+    margin-top: 142px !important;
+    display: block;
+  margin:auto;
+    text-align: center;
+}
+    body #website_sale_donate {
+        -webkit-animation: fadeIn 2s;
+    }
+    @-webkit-keyframes fadeIn {
+        0% { opacity: 0; }
+        100% { opacity: 1; }
+    }
+    body .oe_website_sale {
+        -webkit-animation: fadeIn 2s;
+    }
+    @-webkit-keyframes fadeIn {
+        0% { opacity: 0; }
+        100% { opacity: 1; }
+    }
+    .oe_website_sale .oe_cart #right_column {
+        display: inline-block;
+    }
+    @media (max-width: 740px) {
+        #right_column {
+            display: inline-block;
+        }
+    }
+    .wsd_cart_page {
+        margin-bottom: 15px;
+    }
+    .wsd_checkout_page_content {
+        margin-bottom: 15px;
+    }
+#payment_method .tab-content {
+    border-left: solid 1px #ddd;
+    border-bottom: solid 1px #ddd;
+    border-right: solid 1px #ddd;
+    height: auto !important;
+    padding-bottom: inherit;
+}
+    @media (max-width: 614px) {
+        #wrap > div.container.oe_website_sale > div.row.wsd_payment_page_content > div.col-sm-3.col-sm-offset-1 > div {
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+    }
+#payment_method .do_not_send_payment_forms {
+    display: none;
+}

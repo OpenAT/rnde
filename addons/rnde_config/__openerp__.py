@@ -19,9 +19,13 @@ Customer configuration for the instance rnde
     'website': 'https://www.datadialog.net',
     'installable': True,
     'depends': [
-        'fsonline',
+        'sale',
+        'portal_sale',
+        'website',
+        'website_sale_donate',
     ],
-    'data': [],
+    'data': [
+        'views/templates.xml',
+        'views/snippet_options.xml',
+    ],
 }
-
-    

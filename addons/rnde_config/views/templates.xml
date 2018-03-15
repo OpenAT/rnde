@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+    <!-- CUSTOM BOOTSTRAP THEME FOR RNDE -->
+    <!-- HINT: http://getbootstrap.com/customize -->
+    <template id="rnde_theme_option" inherit_id="website.themes" name="rnde theme option">
+        <xpath expr='//div[@id="themes-list"]' position="inside">
+            <div class="col-md-4">
+                <div class="well text-center">
+                    <div class="image">
+                        <img class="img-responsive" src="/rnde_config/static/src/img/rnde_theme_thumbnail.png"
+                             alt="RNDE"/>
+                    </div>
+                    <div class="options">
+                        <h3>RNDE</h3>
+                        <p>Rotenasen Deutschland</p>
+                        <a class="btn btn-info" href="/website/theme_change?theme_id=website.theme_rnde">Apply</a>
+                    </div>
+                </div>
+            </div>
+        </xpath>
+    </template>
+    <!-- load rnde theme css and js -->
+    <template id="website.theme_rnde" name="RNDE" inherit_id="website.theme" active="True" customize_show="True">
+        <xpath expr="//link[@id='bootstrap_css']" position="after">
+            <!-- <link rel='stylesheet' href='/rnde_config/static/src/css/rnde_custom_fonts.css' t-ignore="true"/> -->
+            <!--<link rel='stylesheet' href='/rnde_config/static/src/css/bootstrap_rnde/css/bootstrap.min.css' t-ignore="true"/> -->
+            <!--<link rel='stylesheet' href='/rnde_config/static/src/css/bootstrap_rnde/css/bootstrap-theme.min.css' t-ignore="true"/> -->
+            <link rel='stylesheet' href='/rnde_config/static/src/css/rnde.css' t-ignore="true"/>
+<!--            <script type="text/javascript" src="/rnde_config/static/src/js/textreplace.js"/>-->
+        </xpath>
+    </template>
+
+    </data>
+</openerp>

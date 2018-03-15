@@ -5,7 +5,7 @@
 /*
 main .container {
     width: 100%;
-    max-width: 1024px;
+    max-width: 950px;
 }
 */
 /* Media width fixes */
@@ -27,6 +27,7 @@ auf die Größe des Iframes und nicht auf die darüberliegende Seitengröße.
         width: inherit;
     }
 }
+
 @media (min-width: 500px) {
     .container {
         width: 735px;

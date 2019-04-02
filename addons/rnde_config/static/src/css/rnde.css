@@ -614,3 +614,10 @@ body[data-rootcatid="2"] .oe_product .ribbon {
 body[data-rootcatid="2"]  .oe_product .oe_product_image img {
     height: auto;
 }
+
+body[data-rootcatid="2"]  .oe_product .oe_product_image {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom:0;
+}

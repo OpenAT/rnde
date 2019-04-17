@@ -601,6 +601,11 @@ body[data-rootcatid="2"] .oe_product.oe_grid .oe_subdescription {
     margin-top: 0.5em;
     line-height: 140%;
 }
+body[data-rootcatid="2"] #products_grid .oe_product {
+        width: 320px;
+        height:300px;
+    }
+
 /*
 body[data-rootcatid="2"] .oe_product .ribbon {
     font: bold 18px Sans-Serif;

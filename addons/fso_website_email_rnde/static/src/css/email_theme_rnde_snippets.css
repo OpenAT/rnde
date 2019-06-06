@@ -1,0 +1,329 @@
+/* ------------------------------- */
+/* rnde SIZING FOR 650 PIXEL WIDTH */
+/* ------------------------------- */
+
+.flexibleContainer {
+    width: 650px;
+}
+
+
+/* .snippet_block_text_image_left */
+.snippet_block_text_image_left .flexibleContainerRight,
+.snippet_block_text_image_left .flexibleContainerRight .flexibleImage {
+    width: 390px;
+}
+.snippet_block_text_image_left.rnde_sb_fg_red .flexibleContainerRight,
+.snippet_block_text_image_left.rnde_sb_fg_blue .flexibleContainerRight,
+.snippet_block_text_image_left.rnde_sb_fg_background .flexibleContainerRight {
+    width: 340px;
+}
+
+/* .snippet_block_text_image_right */
+.snippet_block_text_image_right .flexibleContainerLeft,
+.snippet_block_text_image_right .flexibleContainerLeft .flexibleImage {
+    width: 390px;
+}
+.snippet_block_text_image_right.rnde_sb_fg_red .flexibleContainerLeft,
+.snippet_block_text_image_right.rnde_sb_fg_blue .flexibleContainerLeft,
+.snippet_block_text_image_right.rnde_sb_fg_background .flexibleContainerLeft {
+    width: 340px;
+}
+
+/* .snippet_block_text_twocol */
+.snippet_block_text_twocol .flexibleContainerRight,
+.snippet_block_text_twocol .flexibleContainerRight .flexibleImage {
+    width: 295px;
+}
+.snippet_block_text_twocol .flexibleContainerLeft,
+.snippet_block_text_twocol .flexibleContainerLeft .flexibleImage {
+    width: 295px;
+}
+
+/* .snippet_block_text_threecol */
+.snippet_block_text_threecol .flexibleContainer33,
+.snippet_block_text_threecol .flexibleContainer33 .flexibleImage {
+    width: 190px;
+}
+
+/* .snippet_block_banner */
+.snippet_block_banner .flexibleImage,
+.snippet_block_banner.dadi_sb_bg_normal .flexibleImage {
+    width: 610px;
+    max-width: 610px;
+}
+.snippet_block_banner.dadi_sb_bg_full .flexibleImage {
+    width: 650px;
+    max-width: 650px;
+}
+.snippet_block_banner.dadi_sb_bg_narrow .flexibleImage {
+    width: 570px;
+    max-width: 570px;
+}
+
+
+
+
+/* --------------- */
+/* SNIPPET OPTIONS */
+/* --------------- */
+
+
+/* Background and Foreground Options for Snippet Blocks */
+/* ---------------------------------------------------- */
+.rnde_sb_bg_background .flexibleContainerCell,
+.rnde_sb_fg_background .flexibleContainerCell .nestedContainerCell {
+    background-color: #f6f6f5;
+}
+.rnde_sb_bg_red .flexibleContainerCell,
+.rnde_sb_fg_red .flexibleContainerCell .nestedContainerCell {
+    background-color: #d20028;
+    color: white;
+}
+.rnde_sb_bg_blue .flexibleContainerCell,
+.rnde_sb_fg_blue .flexibleContainerCell .nestedContainerCell {
+    background-color: #364979;
+    color: white;
+}
+.rnde_sb_fg_background .flexibleContainerCell .nestedContainerCell,
+.rnde_sb_fg_red .flexibleContainerCell .nestedContainerCell,
+.rnde_sb_fg_blue .flexibleContainerCell .nestedContainerCell {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 0;
+}
+
+/* rnde_snippet_block_padding */
+/* -------------------------- */
+
+.snippet_block.rnde_snippet_block_padding_none .flexibleContainer .flexibleContainerCell {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.snippet_block.rnde_snippet_block_padding_lower .flexibleContainer .flexibleContainerCell {
+    padding-bottom: 0;
+}
+.snippet_block.rnde_snippet_block_padding_smallbox .flexibleContainer .flexibleContainerCell {
+    padding-top: 12px;
+    padding-bottom: 5px;
+}
+.snippet_block.rnde_snippet_block_padding_largebox .flexibleContainer .flexibleContainerCell {
+    padding-top: 32px;
+    padding-bottom: 25px;
+}
+
+/* .rnde_text_image_red_box, rnde_text_image_blue_box */
+/* -------------------------------------------------- */
+.snippet_block_text_image_left.rnde_text_image_blue_box .flexibleContainerCell {
+    background-color: #364979;
+}
+.snippet_block_text_image_left.rnde_text_image_red_box .flexibleContainerCell {
+    background-color: #d20028;
+}
+.snippet_block_text_image_left.rnde_text_image_blue_box .flexibleContainerCell,
+.snippet_block_text_image_left.rnde_text_image_red_box .flexibleContainerCell {
+    padding: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.snippet_block_text_image_left.rnde_text_image_blue_box .flexibleContainerLeft,
+.snippet_block_text_image_left.rnde_text_image_red_box .flexibleContainerLeft {
+    background-color: white;
+}
+.snippet_block_text_image_left.rnde_text_image_blue_box .flexibleContainerRight .textContent,
+.snippet_block_text_image_left.rnde_text_image_red_box .flexibleContainerRight .textContent {
+    padding: 10px 20px 0 0;
+}
+.snippet_block_text_image_left.rnde_text_image_blue_box .textContent p,
+.snippet_block_text_image_left.rnde_text_image_blue_box .textContent div,
+.snippet_block_text_image_left.rnde_text_image_blue_box .textContent h1,
+.snippet_block_text_image_left.rnde_text_image_blue_box .textContent h2,
+.snippet_block_text_image_left.rnde_text_image_blue_box .textContent h3,
+.snippet_block_text_image_left.rnde_text_image_blue_box .textContent h4,
+.snippet_block_text_image_left.rnde_text_image_blue_box .textContent h5,
+.snippet_block_text_image_left.rnde_text_image_red_box .textContent p,
+.snippet_block_text_image_left.rnde_text_image_red_box .textContent div,
+.snippet_block_text_image_left.rnde_text_image_red_box .textContent h1,
+.snippet_block_text_image_left.rnde_text_image_red_box .textContent h2,
+.snippet_block_text_image_left.rnde_text_image_red_box .textContent h3,
+.snippet_block_text_image_left.rnde_text_image_red_box .textContent h4,
+.snippet_block_text_image_left.rnde_text_image_red_box .textContent h5 {
+    color: white;
+}
+.snippet_block_text_image_left.rnde_text_image_blue_box .flexibleContainerRight,
+.snippet_block_text_image_left.rnde_text_image_red_box .flexibleContainerRight {
+    width: 430px;
+}
+
+
+/* .snippet_block_text_image_left Image Height */
+/* ------------------------------------------- */
+.snippet_block_text_image_left.rnde_image_height_100 .flexibleContainerLeft {
+    min-height: 100px;
+}
+.snippet_block_text_image_left.rnde_image_height_150 .flexibleContainerLeft {
+    min-height: 150px;
+}
+.snippet_block_text_image_left.rnde_image_height_200 .flexibleContainerLeft {
+    min-height: 200px;
+}
+.snippet_block_text_image_left.rnde_image_height_250 .flexibleContainerLeft {
+    min-height: 250px;
+}
+.snippet_block_text_image_left.rnde_image_height_300 .flexibleContainerLeft {
+    min-height: 300px;
+}
+.snippet_block_text_image_left.rnde_image_height_400 .flexibleContainerLeft {
+    min-height: 400px;
+}
+
+
+/* .rnde_large_image: image size 400px */
+/* ----------------------------------- */
+
+/* .snippet_block_text_image_left */
+.snippet_block_text_image_left.rnde_large_image .flexibleContainerLeft,
+.snippet_block_text_image_left.rnde_large_image .flexibleContainerLeft .flexibleImage {
+    width: 350px;
+}
+.snippet_block_text_image_left.rnde_large_image .flexibleContainerRight,
+.snippet_block_text_image_left.rnde_large_image .flexibleContainerRight .flexibleImage {
+    width: 240px;
+}
+.snippet_block_text_image_left.rnde_large_image.rnde_sb_fg_red .flexibleContainerRight,
+.snippet_block_text_image_left.rnde_large_image.rnde_sb_fg_blue .flexibleContainerRight,
+.snippet_block_text_image_left.rnde_large_image.rnde_sb_fg_background .flexibleContainerRight {
+    width: 190px;
+}
+.snippet_block_text_image_left.rnde_large_image.rnde_text_image_blue_box .flexibleContainerRight,
+.snippet_block_text_image_left.rnde_large_image.rnde_text_image_red_box .flexibleContainerRight {
+    width: 280px;
+}
+
+/* .snippet_block_text_image_right */
+.snippet_block_text_image_right.rnde_large_image .flexibleContainerLeft,
+.snippet_block_text_image_right.rnde_large_image .flexibleContainerLeft .flexibleImage {
+    width: 240px;
+}
+.snippet_block_text_image_right.rnde_large_image .flexibleContainerRight,
+.snippet_block_text_image_right.rnde_large_image .flexibleContainerRight .flexibleImage {
+    width: 350px;
+}
+.snippet_block_text_image_right.rnde_large_image.rnde_sb_fg_red .flexibleContainerLeft,
+.snippet_block_text_image_right.rnde_large_image.rnde_sb_fg_blue .flexibleContainerLeft,
+.snippet_block_text_image_right.rnde_large_image.rnde_sb_fg_background .flexibleContainerLeft {
+    width: 190px;
+}
+
+/* .rnde_medium_image: image size 400px */
+/* ----------------------------------- */
+
+/* .snippet_block_text_image_left */
+.snippet_block_text_image_left.rnde_medium_image .flexibleContainerLeft,
+.snippet_block_text_image_left.rnde_medium_image .flexibleContainerLeft .flexibleImage {
+    width: 270px;
+}
+.snippet_block_text_image_left.rnde_medium_image .flexibleContainerRight,
+.snippet_block_text_image_left.rnde_medium_image .flexibleContainerRight .flexibleImage {
+    width: 320px;
+}
+.snippet_block_text_image_left.rnde_medium_image.rnde_sb_fg_red .flexibleContainerRight,
+.snippet_block_text_image_left.rnde_medium_image.rnde_sb_fg_blue .flexibleContainerRight,
+.snippet_block_text_image_left.rnde_medium_image.rnde_sb_fg_background .flexibleContainerRight {
+    width: 270px;
+}
+.snippet_block_text_image_left.rnde_medium_image.rnde_text_image_blue_box .flexibleContainerRight,
+.snippet_block_text_image_left.rnde_medium_image.rnde_text_image_red_box .flexibleContainerRight {
+    width: 360px;
+}
+
+/* .snippet_block_text_image_right */
+.snippet_block_text_image_right.rnde_medium_image .flexibleContainerLeft,
+.snippet_block_text_image_right.rnde_medium_image .flexibleContainerLeft .flexibleImage {
+    width: 320px;
+}
+.snippet_block_text_image_right.rnde_medium_image .flexibleContainerRight,
+.snippet_block_text_image_right.rnde_medium_image .flexibleContainerRight .flexibleImage {
+    width: 270px;
+}
+.snippet_block_text_image_right.rnde_medium_image.rnde_sb_fg_red .flexibleContainerLeft,
+.snippet_block_text_image_right.rnde_medium_image.rnde_sb_fg_blue .flexibleContainerLeft,
+.snippet_block_text_image_right.rnde_medium_image.rnde_sb_fg_background .flexibleContainerLeft {
+    width: 270px;
+}
+
+/* .rnde_small_image: image size 140px */
+/* ----------------------------------- */
+
+/* .snippet_block_text_image_left */
+.snippet_block_text_image_left.rnde_small_image .flexibleContainerLeft,
+.snippet_block_text_image_left.rnde_small_image .flexibleContainerLeft .flexibleImage {
+    width: 140px;
+}
+.snippet_block_text_image_left.rnde_small_image .flexibleContainerRight,
+.snippet_block_text_image_left.rnde_small_image .flexibleContainerRight .flexibleImage {
+    width: 450px;
+}
+.snippet_block_text_image_left.rnde_small_image.rnde_sb_fg_red .flexibleContainerRight,
+.snippet_block_text_image_left.rnde_small_image.rnde_sb_fg_blue .flexibleContainerRight,
+.snippet_block_text_image_left.rnde_small_image.rnde_sb_fg_background .flexibleContainerRight {
+    width: 400px;
+}
+.snippet_block_text_image_left.rnde_small_image.rnde_text_image_blue_box .flexibleContainerRight,
+.snippet_block_text_image_left.rnde_small_image.rnde_text_image_red_box .flexibleContainerRight {
+    width: 490px;
+}
+
+/* .snippet_block_text_image_right */
+.snippet_block_text_image_right.rnde_small_image .flexibleContainerLeft,
+.snippet_block_text_image_right.rnde_small_image .flexibleContainerLeft .flexibleImage {
+    width: 450px;
+}
+.snippet_block_text_image_right.rnde_small_image .flexibleContainerRight,
+.snippet_block_text_image_right.rnde_small_image .flexibleContainerRight .flexibleImage {
+    width: 140px;
+}
+.snippet_block_text_image_right.rnde_small_image.rnde_sb_fg_red .flexibleContainerLeft,
+.snippet_block_text_image_right.rnde_small_image.rnde_sb_fg_blue .flexibleContainerLeft,
+.snippet_block_text_image_right.rnde_small_image.rnde_sb_fg_background .flexibleContainerLeft {
+    width: 400px;
+}
+
+
+/* .rnde_tiny_image: image size 90px */
+/* --------------------------------- */
+
+/* .snippet_block_text_image_left */
+.snippet_block_text_image_left.rnde_tiny_image .flexibleContainerLeft,
+.snippet_block_text_image_left.rnde_tiny_image .flexibleContainerLeft .flexibleImage {
+    width: 90px;
+}
+.snippet_block_text_image_left.rnde_tiny_image .flexibleContainerRight,
+.snippet_block_text_image_left.rnde_tiny_image .flexibleContainerRight .flexibleImage {
+    width: 500px;
+}
+.snippet_block_text_image_left.rnde_tiny_image.rnde_sb_fg_red .flexibleContainerRight,
+.snippet_block_text_image_left.rnde_tiny_image.rnde_sb_fg_blue .flexibleContainerRight,
+.snippet_block_text_image_left.rnde_tiny_image.rnde_sb_fg_background .flexibleContainerRight {
+    width: 450px;
+}
+.snippet_block_text_image_left.rnde_tiny_image.rnde_text_image_blue_box .flexibleContainerRight,
+.snippet_block_text_image_left.rnde_tiny_image.rnde_text_image_red_box .flexibleContainerRight {
+    width: 540px;
+}
+
+/* .snippet_block_text_image_right */
+.snippet_block_text_image_right.rnde_tiny_image .flexibleContainerLeft,
+.snippet_block_text_image_right.rnde_tiny_image .flexibleContainerLeft .flexibleImage {
+    width: 500px;
+}
+.snippet_block_text_image_right.rnde_tiny_image .flexibleContainerRight,
+.snippet_block_text_image_right.rnde_tiny_image .flexibleContainerRight .flexibleImage {
+    width: 90px;
+}
+.snippet_block_text_image_right.rnde_tiny_image.rnde_sb_fg_red .flexibleContainerLeft,
+.snippet_block_text_image_right.rnde_tiny_image.rnde_sb_fg_blue .flexibleContainerLeft,
+.snippet_block_text_image_right.rnde_tiny_image.rnde_sb_fg_background .flexibleContainerLeft {
+    width: 450px;
+}

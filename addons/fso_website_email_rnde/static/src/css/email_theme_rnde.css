@@ -1,0 +1,141 @@
+/* ---- */
+/* MAIN */
+/* ---- */
+html, body, #bodyTable, #bodyCell {
+    background-color: #f6f6f5;
+}
+html body #wrapwrap {
+    margin-top: 0;
+}
+.headerCell {
+    font-size: 12px;
+}
+
+#open_in_browser {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+/*
+    ====
+    body
+    ====
+*/
+#bodyCell {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+
+
+/* ------------------------------- */
+/* rnde SIZING FOR 650 PIXEL WIDTH */
+/* ------------------------------- */
+#emailBody {
+    width: 650px;
+}
+
+/* ---------- */
+/* Typography */
+/* ---------- */
+p, td, a, div, span {
+    /*font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", Helvetica, Arial, sans-serif;*/
+    font-family: 'PT Sans', "Trebuchet MS", sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    color: #364979;
+}
+div, span, td {
+    font-size: inherit;
+}
+
+p {
+    /* Top */
+    margin-top: 0;
+    -webkit-margin-before: inherit;
+    /* Bottom */
+    margin-bottom: 0;
+    -webkit-margin-after: inherit;
+    padding-bottom: 0.25em;
+    /* Just reset */
+    -webkit-margin-start: inherit;
+    -webkit-margin-end: inherit;
+}
+/* Links */
+a {
+    color: #d20028;
+    text-decoration: underline;
+}
+/* Headlines */
+.h1, .h2, .h3,
+h1, h2, h3 {
+    margin-top: 0;
+}
+.h1, .h2, .h3, .h4, .h5, .h6,
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'PT Sans', "Trebuchet MS", sans-serif;
+    line-height: 140%;
+    color: #364979;
+
+    /* Top */
+    margin-top: 0;
+    -webkit-margin-before: inherit;
+
+    /* Bottom */
+    margin-bottom: 0;
+    -webkit-margin-after: inherit;
+    padding-bottom: 0.25em;
+
+    /* Just reset */
+    -webkit-margin-start: inherit;
+    -webkit-margin-end: inherit;
+}
+.h1, h1 {
+    font-size: 42px;
+    font-weight: 700;
+    color: #d20028;
+}
+.h2, h2 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #d20028;
+}
+.h3, h3 {
+    font-size: 22px;
+    font-weight: 700;
+}
+.h4, h4 {
+    font-size: 18px;
+    font-weight: 300;
+}
+.h5, h5 {
+    font-size: 16px;
+    font-weight: 300;
+}
+.h6, h6 {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+
+blockquote {
+    padding: 11px 22px;
+    margin: 0 0 22px;
+    font-size: 20px;
+    border-left: 5px solid #d20028;
+}
+
+p.rnde_small {
+    font-size: 14px;
+}
+
+p.rnde_tiny {
+    font-size: 10px;
+}
+
+.rnde_red {
+    color: #d20028;
+}
+

@@ -679,3 +679,32 @@ div.product_price.text-primary {
         display: none;
     }
 }
+/*no media*/
+
+    body[data-rootcatid="2"] #products_grid_before {
+        display: none;
+    }
+
+    body[data-rootcatid="2"] .oe_grid .a-submit {
+        display: none;
+    }
+    body[data-rootcatid="2"] .oe_product.oe_grid.oe-height-2 {
+        height: 250px;
+
+    }
+body[data-rootcatid="2"] #products_grid .oe_product {
+    width: 350px;
+    height: 250px;
+    margin: 2px;
+}
+body[data-rootcatid="2"] .oe_product .oe_product_image {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+body[data-rootcatid="2"] .oe_product .oe_product_image img {
+    width: auto;
+    position: relative;
+}
+

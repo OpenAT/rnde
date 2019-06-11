@@ -515,7 +515,7 @@ body[data-catid="2"] .ppt_opc #wsd_checkout_form > div > h3:after {
 }
     body #website_sale_donate {
         -webkit-animation: fadeIn 2s;
-        background-color: #eeeeee57 !important;
+        background-color: #ffffff !important;
     }
     @-webkit-keyframes fadeIn {
         0% { opacity: 0; }

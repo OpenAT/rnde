@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+<data>
+
+
+    <!-- INHERIT AND EXTEND theme_default_snippets -->
+    <template id="email_theme_rnde_snippets_overrides_prat2" inherit_id="fso_website_email.theme_framework_snippets" name="Email Theme RNDE Snippet overrides part2">
+
+        <xpath expr="//li[@id='snippet_menu_special']" position="after">
+            <li id="snippet_menu_combined_snippets_rnde">
+                <a href="#combined_snippets_rnde" data-toggle="tab">Combined</a>
+            </li>
+        </xpath>
+
+        <!-- ======================= -->
+        <!--  RNDE COMBINED SNIPPETS -->
+        <!-- ======================= -->
+        <xpath expr="//div[@id='snippet_email_special']" position="after">
+            <div id="combined_snippets_rnde" class="tab-pane fade">
+
+             <!-- HEADER SNIPPET BLOCK -->
+                <!-- =============== -->
+                <div>
+                    <!-- Icon and name -->
+                    <div class="oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img"
+                             src="/fso_website_email_rnde/static/src/icons/header_snippet.png"/>
+                        <span class="oe_snippet_thumbnail_title">Header Snippet</span>
+                    </div>
+                    <div class="oe_snippet_body ckediting_enabled snippet_block snippet_block_text_image_left rnde_snippet_block_padding_none">
+                        <table cellpadding="0" cellspacing="0" class="centeringTable">
+                            <tbody>
+                                <tr>
+                                    <td align="center" valign="top">
+                                        <table border="0" cellpadding="0" cellspacing="0" class="flexibleContainer">
+                                            <tbody>
+                                                <tr>
+                                                    <td align="center" class="flexibleContainerCell" valign="top">
+                                                        <table border="0" cellpadding="0" cellspacing="0" class="nestedContainer">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td align="center" class="nestedContainerCell" valign="top">
+                                                                        <table border="0" cellpadding="0" cellspacing="0" class="contentTable">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td class="textContent">
+                                                                                        <table align="left" border="0" cellpadding="0" cellspacing="0" class="flexibleContainerLeft">
+                                                                                            <tbody>
+                                                                                                <tr>
+                                                                                                    <td align="left" class="imageContent ckediting_enabled" valign="top">
+                                                                                                        <img class="flexibleImage" src="/website/image/ir.attachment/698_72d3f32/datas"></img>
+                                                                                                    </td>
+                                                                                                </tr>
+                                                                                            </tbody>
+                                                                                        </table>
+
+                                                                                        <table align="right" border="0" cellpadding="0" cellspacing="0" class="flexibleContainerRight">
+                                                                                            <tbody>
+                                                                                                <tr>
+                                                                                                    <td class="textContent ckediting_enabled" valign="top">
+                                                                                                        <h4 style="text-align: right;">
+                                                                                                            <span style="color:#d20028;">
+                                                                                                                Wir bringen Lachen und Zuversicht zu
+                                                                                                                <br/>
+                                                                                                                kranken und leidenden Menschen.
+                                                                                                            </span>
+                                                                                                        </h4>
+
+                                                                                                        <p class="rnde_small" style="text-align: right;">
+                                                                                                            Bei Darstellungsproblemen klicken Sie bitte diesen
+                                                                                                            <a href="%open_browser%">Link</a>
+                                                                                                        </p>
+                                                                                                    </td>
+                                                                                                </tr>
+                                                                                            </tbody>
+                                                                                        </table>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- FOOTER SNIPPET BLOCK -->
+                <!-- =============== -->
+                <div>
+                    <!-- Icon and name -->
+                    <div class="oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img"
+                             src="/fso_website_email_rnde/static/src/icons/footer_snippet.jpg"/>
+                        <span class="oe_snippet_thumbnail_title">Footer Snippet</span>
+                    </div>
+                    <div class="oe_snippet_body ckediting_disabled rnde_bin">
+                        <div class="ckediting_disabled snippet_block snippet_block_text_intro">
+                            <table cellpadding="0" cellspacing="0" class="centeringTable">
+                                <tbody>
+                                    <tr>
+                                        <td align="center" valign="top">
+                                            <table border="0" cellpadding="0" cellspacing="0" class="flexibleContainer">
+                                                <tbody>
+                                                    <tr>
+                                                        <td align="center" class="flexibleContainerCell" valign="top">
+                                                            <table border="0" cellpadding="0" cellspacing="0"
+                                                                   class="nestedContainer">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td align="center" class="nestedContainerCell"
+                                                                            valign="top">
+                                                                            <table border="0" cellpadding="0"
+                                                                                   cellspacing="0" class="contentTable">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td class="textContent ckediting_enabled">
+                                                                                            <h4 style="text-align: center;">
+                                                                                                <span style="color: #d20028;">
+                                                                                                    folgen Sie uns:
+                                                                                                </span>
+                                                                                            </h4>
+                                                                                            <p style="text-align: center;">
+                                                                                                <a href="https://www.facebook.com/RoteNasen.Deutschland/" target="_blank"><img src="https://spenden.rotenasen.de/fso_website_email_rnde/static/src/icons/facebook.png" alt="Facebook" title="Facebook"/></a>
+                                                                                                <a href="https://www.instagram.com/rotenasenclowndoctors/" target="_blank"><img src="https://spenden.rotenasen.de/fso_website_email_rnde/static/src/icons/instagram.jpeg" alt="Instagram" title="Instagram"/></a>
+                                                                                                <a href="https://twitter.com/rotenasenclowns" target="_blank"><img src="https://spenden.rotenasen.de/fso_website_email_rnde/static/src/icons/twitter.png" alt="Twitter" title="Twitter"/></a>
+                                                                                            </p>
+                                                                                            <h2 style="text-align: center;">
+                                                                                                <span style="color: #364979;">
+                                                                                                    Wir freun uns auf Ihren Besuch!
+                                                                                                </span>
+                                                                                            </h2>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+
+                        <div class="ckediting_disabled snippet_block snippet_block_spacer rnde_sb_bg_background">
+                            <table cellpadding="0" cellspacing="0" class="centeringTable">
+                                <tbody>
+                                    <tr>
+                                        <td align="center" valign="top">
+                                            <table border="0" cellpadding="0" cellspacing="0" class="flexibleContainer">
+                                                <tbody>
+                                                    <tr>
+                                                        <td align="center" class="flexibleContainerCell" valign="top">
+                                                            <table border="0" cellpadding="0" cellspacing="0"
+                                                                   class="nestedContainer">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td align="center" class="nestedContainerCell"
+                                                                            valign="top">
+                                                                            <table border="0" cellpadding="0"
+                                                                                   cellspacing="0" class="contentTable">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td class="textContent">
+                                                                                            <table border="0"
+                                                                                                   cellpadding="0"
+                                                                                                   cellspacing="0"
+                                                                                                   class="snippet_block_spacer_top">
+                                                                                                <tbody>
+                                                                                                    <tr>
+                                                                                                        <td>
+                                                                                                            <![CDATA[&nbsp;]]>
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table>
+
+                                                                                            <table border="0"
+                                                                                                   cellpadding="0"
+                                                                                                   cellspacing="0"
+                                                                                                   class="snippet_block_spacer_bottom">
+                                                                                                <tbody>
+                                                                                                    <tr>
+                                                                                                        <td>
+                                                                                                            <![CDATA[&nbsp;]]>
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+
+                        <div class="ckediting_disabled snippet_block snippet_block_text_image_right">
+                            <table cellpadding="0" cellspacing="0" class="centeringTable">
+                                <tbody>
+                                    <tr>
+                                        <td align="center" valign="top">
+                                            <table border="0" cellpadding="0" cellspacing="0" class="flexibleContainer">
+                                                <tbody>
+                                                    <tr>
+                                                        <td align="center" class="flexibleContainerCell" valign="top">
+                                                            <table border="0" cellpadding="0" cellspacing="0"
+                                                                   class="nestedContainer">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td align="center" class="nestedContainerCell"
+                                                                            valign="top">
+                                                                            <table border="0" cellpadding="0"
+                                                                                   cellspacing="0" class="contentTable">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td class="textContent">
+                                                                                            <table align="left" border="0"
+                                                                                                   cellpadding="0"
+                                                                                                   cellspacing="0"
+                                                                                                   class="flexibleContainerLeft">
+                                                                                                <tbody>
+                                                                                                    <tr>
+                                                                                                        <td class="textContent ckediting_enabled"
+                                                                                                            valign="top">
+                                                                                                            <h3>
+                                                                                                                ROTE NASEN
+                                                                                                                Deutschland
+                                                                                                                e.V.
+                                                                                                            </h3>
+
+                                                                                                            <p>
+                                                                                                                Geschäftsführung:
+                                                                                                                Kirsten
+                                                                                                                Kaup, Claus
+                                                                                                                Gieschen
+                                                                                                                <br/>
+                                                                                                                Großkopfstraße
+                                                                                                                6-7
+                                                                                                                <br/>
+                                                                                                                13403 Berlin
+                                                                                                                <br/>
+                                                                                                                office@rotenasen.de
+                                                                                                                <br/>
+                                                                                                                Steuer-Nr.:
+                                                                                                                27/676/52410
+                                                                                                                <br/>
+                                                                                                                <a style="font-weight: Bold; text-decoration: underline;" >Unser
+                                                                                                                Spendenkonto:</a>
+                                                                                                                <br/>
+                                                                                                                IBAN:
+                                                                                                                DE65100205000003319200
+                                                                                                                <br/>
+                                                                                                                BIC:
+                                                                                                                BFSWDE33BER
+                                                                                                            </p>
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table>
+
+                                                                                            <table align="right" border="0"
+                                                                                                   cellpadding="0"
+                                                                                                   cellspacing="0"
+                                                                                                   class="flexibleContainerRight">
+                                                                                                <tbody>
+                                                                                                    <tr>
+                                                                                                        <td align="left"
+                                                                                                            class="imageContent ckediting_enabled"
+                                                                                                            valign="bottom">
+                                                                                                            <img class="flexibleImage"
+                                                                                                                 src="https://spenden.rotenasen.de/website/image/ir.attachment/698_72d3f32/datas"></img>
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+
+                        <div class="ckediting_disabled snippet_block snippet_block_spacer rnde_sb_bg_background">
+                            <table cellpadding="0" cellspacing="0" class="centeringTable">
+                                <tbody>
+                                    <tr>
+                                        <td align="center" valign="top">
+                                            <table border="0" cellpadding="0" cellspacing="0" class="flexibleContainer">
+                                                <tbody>
+                                                    <tr>
+                                                        <td align="center" class="flexibleContainerCell" valign="top">
+                                                            <table border="0" cellpadding="0" cellspacing="0"
+                                                                   class="nestedContainer">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td align="center" class="nestedContainerCell"
+                                                                            valign="top">
+                                                                            <table border="0" cellpadding="0"
+                                                                                   cellspacing="0" class="contentTable">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td class="textContent">
+                                                                                            <table border="0"
+                                                                                                   cellpadding="0"
+                                                                                                   cellspacing="0"
+                                                                                                   class="snippet_block_spacer_top">
+                                                                                                <tbody>
+                                                                                                    <tr>
+                                                                                                        <td>
+                                                                                                            <![CDATA[&nbsp;]]>
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table>
+
+                                                                                            <table border="0"
+                                                                                                   cellpadding="0"
+                                                                                                   cellspacing="0"
+                                                                                                   class="snippet_block_spacer_bottom">
+                                                                                                <tbody>
+                                                                                                    <tr>
+                                                                                                        <td>
+                                                                                                            <![CDATA[&nbsp;]]>
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+
+                        <div class="ckediting_disabled snippet_block snippet_block_text_threecol">
+                            <table cellpadding="0" cellspacing="0" class="centeringTable">
+                                <tbody>
+                                    <tr>
+                                        <td align="center" valign="top">
+                                            <table border="0" cellpadding="0" cellspacing="0" class="flexibleContainer">
+                                                <tbody>
+                                                    <tr>
+                                                        <td align="center" class="flexibleContainerCell" valign="top">
+                                                            <table border="0" cellpadding="0" cellspacing="0"
+                                                                   class="nestedContainer">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td align="center" class="nestedContainerCell"
+                                                                            valign="top">
+                                                                            <table border="0" cellpadding="0"
+                                                                                   cellspacing="0" class="contentTable">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td class="textContent">
+                                                                                            <table align="left" border="0"
+                                                                                                   cellpadding="0"
+                                                                                                   cellspacing="0"
+                                                                                                   class="flexibleContainer33 flexibleContainer33left">
+                                                                                                <tbody>
+                                                                                                    <tr>
+                                                                                                        <td align="center"
+                                                                                                            class="textContent ckediting_enabled"
+                                                                                                            style="text-align:center;"
+                                                                                                            valign="top">
+                                                                                                            <img class="flexibleImage"
+                                                                                                                 src="/website/image/ir.attachment/659_8ef2cdf/datas"
+                                                                                                                 style="text-align:center;"></img>
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table>
+
+                                                                                            <table align="left" border="0"
+                                                                                                   cellpadding="0"
+                                                                                                   cellspacing="0"
+                                                                                                   class="flexibleContainer33 flexibleContainer33middle">
+                                                                                                <tbody>
+                                                                                                    <tr>
+                                                                                                        <td align="center"
+                                                                                                            class="textContent ckediting_enabled"
+                                                                                                            style="text-align:center;"
+                                                                                                            valign="top">
+                                                                                                            <img class="flexibleImage"
+                                                                                                                 src="/website/image/ir.attachment/658_0087e36/datas"
+                                                                                                                 style="text-align:center;"></img>
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table>
+
+                                                                                            <table align="left" border="0"
+                                                                                                   cellpadding="0"
+                                                                                                   cellspacing="0"
+                                                                                                   class="flexibleContainer33 flexibleContainer33right">
+                                                                                                <tbody>
+                                                                                                    <tr>
+                                                                                                        <td align="center"
+                                                                                                            class="textContent ckediting_enabled"
+                                                                                                            style="text-align:center;"
+                                                                                                            valign="top">
+                                                                                                            <img class="flexibleImage"
+                                                                                                                 src="/website/image/ir.attachment/821_a206df4/datas"
+                                                                                                                 style="text-align:center;"></img>
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="textContent ckediting_enabled" style="text-align: center;">
+                                                                                                <a style="text-decoration: none; color: #cccccc;" href="https://www.rotenasen.de/presse/newsletter-abbestellen">
+                                                                                                        Newsletter abbestellen
+                                                                                                </a>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </xpath>
+    </template>
+
+
+</data>
+</openerp>

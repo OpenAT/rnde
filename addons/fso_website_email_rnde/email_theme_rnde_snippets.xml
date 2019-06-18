@@ -98,7 +98,29 @@
                 </li>
             </div>
         </xpath>
-        
+
+        <xpath expr="//div[@data-snippet-option-id='drop_in_button_width']" position="after">
+            <div data-snippet-option-id='rnde_snippet_block_img_padding_top'
+                 data-selector=".flexibleContainer33left img.flexibleImage,
+                                .flexibleContainer33middle img.flexibleImage,
+                                .flexibleContainer33right img.flexibleImage">
+                <!-- Snippet options menu -->
+                <li class="dropdown-submenu" data-required="true">
+                    <a tabindex="-1" href="#">Vertical img Padding</a>
+                    <ul class="dropdown-menu">
+                        <li data-value=''><a>Normal</a></li>
+                        <li data-value='rnde_snippet_block_img_padding_top_none'><a>Remove Padding</a></li>
+                        <li data-value='rnde_snippet_block_img_padding_top_10'><a>10px</a></li>
+                        <li data-value='rnde_snippet_block_img_padding_top_20'><a>20px</a></li>
+                        <li data-value='rnde_snippet_block_img_padding_top_30'><a>30px</a></li>
+                        <li data-value='rnde_snippet_block_img_padding_top_40'><a>40px</a></li>
+                        <li data-value='rnde_snippet_block_img_padding_top_50'><a>50px</a></li>
+                        <li data-value='rnde_snippet_block_img_padding_top_60'><a>60px</a></li>
+                    </ul>
+                </li>
+            </div>
+        </xpath>
+
         <!-- .drop_in_button Extra Options -->
         <xpath expr="//div[@data-snippet-option-id='drop_in_button_width']" position="after">
             <!-- OPTION_GROUP: drop_in_button_rnde_width -->

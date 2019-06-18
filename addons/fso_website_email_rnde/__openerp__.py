@@ -43,6 +43,7 @@ Custom Newsletter-Theme for rnde based on the website design.
     ],
     'data': [
         'email_theme_rnde_snippets.xml',
+        'email_theme_rnde_combined_snippets.xml',
         'email_theme_rnde.xml',
     ],
     'qweb': [

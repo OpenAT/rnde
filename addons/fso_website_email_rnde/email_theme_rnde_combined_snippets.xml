@@ -18,7 +18,7 @@
         <xpath expr="//div[@id='snippet_email_special']" position="after">
             <div id="combined_snippets_rnde" class="tab-pane fade">
 
-             <!-- HEADER SNIPPET BLOCK -->
+             <!-- HEADER SNIPPET BLOCK ALLG -->
                 <!-- =============== -->
                 <div>
                     <!-- Icon and name -->
@@ -48,7 +48,7 @@
                                                                                             <tbody>
                                                                                                 <tr>
                                                                                                     <td align="left" class="imageContent ckediting_enabled" valign="top">
-                                                                                                        <img class="flexibleImage" src="/website/image/ir.attachment/698_72d3f32/datas"></img>
+                                                                                                        <a href="https://www.rotenasen.de"><img class="flexibleImage" src="/fso_website_email_rnde/static/src/img/logo_1.jpeg"></img></a>
                                                                                                     </td>
                                                                                                 </tr>
                                                                                             </tbody>
@@ -68,7 +68,7 @@
 
                                                                                                         <p class="rnde_small" style="text-align: right;">
                                                                                                             Bei Darstellungsproblemen klicken Sie bitte diesen
-                                                                                                            <a href="%open_browser%">Link</a>
+                                                                                                            <a href="%open_browser%" style="color: #000000; font-size: 12px">Link</a>
                                                                                                         </p>
                                                                                                     </td>
                                                                                                 </tr>
@@ -92,6 +92,111 @@
                         </table>
                     </div>
                 </div>
+
+                <!-- HEADER SNIPPET BLOCK NL-->
+                <!-- =============== -->
+                <div>
+                    <!-- Icon and name -->
+                    <div class="oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img"
+                             src="/fso_website_email_rnde/static/src/icons/header_snippet_NL.png"/>
+                        <span class="oe_snippet_thumbnail_title">Header Snippet NL</span>
+                    </div>
+                    <div class="oe_snippet_body ckediting_enabled snippet_block snippet_block_text_image_left rnde_text_image_red_box rnde_medium_image">
+                        <table cellpadding="0" cellspacing="0" class="centeringTable">
+                            <tbody>
+                                <tr>
+                                    <td align="center" valign="top">
+                                        <table border="0" cellpadding="0" cellspacing="0" class="flexibleContainer">
+                                            <tbody>
+                                                <tr>
+                                                    <td align="center" class="flexibleContainerCell" valign="top">
+                                                        <table border="0" cellpadding="0" cellspacing="0"
+                                                               class="nestedContainer">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td align="center" class="nestedContainerCell"
+                                                                        valign="top">
+                                                                        <table border="0" cellpadding="0"
+                                                                               cellspacing="0"
+                                                                               class="contentTable">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td class="textContent">
+                                                                                        <table align="left" border="0"
+                                                                                               cellpadding="0"
+                                                                                               cellspacing="0"
+                                                                                               class="flexibleContainerLeft">
+                                                                                            <tbody>
+                                                                                                <tr>
+                                                                                                    <td align="left"
+                                                                                                        class="imageContent ckediting_enabled"
+                                                                                                        valign="top">
+                                                                                                        <a href="https://www.rotenasen.de"><img class="flexibleImage"
+                                                                                                                                                src="/fso_website_email_rnde/static/src/img/logo_1.jpeg"></img></a>
+                                                                                                    </td>
+                                                                                                </tr>
+                                                                                            </tbody>
+                                                                                        </table>
+
+                                                                                        <table align="right" border="0"
+                                                                                               cellpadding="0"
+                                                                                               cellspacing="0"
+                                                                                               class="flexibleContainerRight">
+                                                                                            <tbody>
+                                                                                                <tr>
+                                                                                                    <td class="textContent ckediting_enabled"
+                                                                                                        valign="top">
+                                                                                                        <h3 style="text-align: right;">
+                                                                                                            <![CDATA[&nbsp;]]>
+                                                                                                        </h3>
+
+                                                                                                        <h3 style="text-align: right;">
+                                                                                                            Newsletter
+                                                                                                            Juni
+                                                                                                            2019
+                                                                                                        </h3>
+
+                                                                                                        <p class="rnde_tiny"
+                                                                                                           style="text-align: right;">
+                                                                                                            <![CDATA[&nbsp;]]>
+                                                                                                        </p>
+
+                                                                                                        <p class="rnde_small"
+                                                                                                           style="text-align: right;">
+                                                                                                            Bei
+                                                                                                            Darstellungsproblemen
+                                                                                                            klicken Sie
+                                                                                                            bitte diesen
+                                                                                                            <a href="%open_browser%"
+                                                                                                               style="color: #000000; font-size: 12px">
+                                                                                                                Link
+                                                                                                            </a>
+                                                                                                        </p>
+                                                                                                    </td>
+                                                                                                </tr>
+                                                                                            </tbody>
+                                                                                        </table>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+
 
                 <!-- FOOTER SNIPPET BLOCK -->
                 <!-- =============== -->
@@ -125,17 +230,20 @@
                                                                                         <td class="textContent ckediting_enabled">
                                                                                             <h4 style="text-align: center;">
                                                                                                 <span style="color: #d20028;">
-                                                                                                    folgen Sie uns:
+                                                                                                    Folgen Sie uns:
                                                                                                 </span>
                                                                                             </h4>
                                                                                             <p style="text-align: center;">
+                                                                                                <p style="text-align: center;"><span tabindex="-1"><span tabindex="-1"><span tabindex="-1"><span tabindex="-1"><span tabindex="-1"><span tabindex="-1"><span tabindex="-1"><span tabindex="-1"><span tabindex="-1"><span tabindex="-1"><span tabindex="-1"><span tabindex="-1"><span tabindex="-1"><span class="fa fa-facebook-square fa-2x" data-widget="icons"></span></span></span></span></span></span></span></span></span></span></span></span></span></span><span style="background-color: transparent; font-size: 16px;"><![CDATA[&nbsp;]]><span tabindex="-1"><span tabindex="-1"><span tabindex="-1"><span tabindex="-1"><span tabindex="-1"><span tabindex="-1"><span tabindex="-1"><span tabindex="-1"><span tabindex="-1"><span tabindex="-1"><span tabindex="-1"><span tabindex="-1"><span class="fa fa-camera fa-2x" data-widget="icons"></span></span></span></span></span></span></span></span></span></span></span></span></span><![CDATA[&nbsp;]]><span tabindex="-1"><span tabindex="-1"><span tabindex="-1"><span tabindex="-1"><span tabindex="-1"><span tabindex="-1"><span tabindex="-1"><span tabindex="-1"><span tabindex="-1"><span tabindex="-1"><span tabindex="-1"><span tabindex="-1"><span class="fa fa-youtube-square fa-2x" data-widget="icons"></span></span></span></span></span></span></span></span></span></span></span></span></span><![CDATA[&nbsp;&nbsp;]]></span></p>
+                                                                                                <!--
                                                                                                 <a href="https://www.facebook.com/RoteNasen.Deutschland/" target="_blank"><img src="https://spenden.rotenasen.de/fso_website_email_rnde/static/src/icons/facebook.png" alt="Facebook" title="Facebook"/></a>
                                                                                                 <a href="https://www.instagram.com/rotenasenclowndoctors/" target="_blank"><img src="https://spenden.rotenasen.de/fso_website_email_rnde/static/src/icons/instagram.jpeg" alt="Instagram" title="Instagram"/></a>
                                                                                                 <a href="https://twitter.com/rotenasenclowns" target="_blank"><img src="https://spenden.rotenasen.de/fso_website_email_rnde/static/src/icons/twitter.png" alt="Twitter" title="Twitter"/></a>
+                                                                                                -->
                                                                                             </p>
                                                                                             <h2 style="text-align: center;">
                                                                                                 <span style="color: #364979;">
-                                                                                                    Wir freun uns auf Ihren Besuch!
+                                                                                                    Wir freuen uns auf Ihren Besuch!
                                                                                                 </span>
                                                                                             </h2>
                                                                                         </td>
@@ -294,8 +402,8 @@
                                                                                                         <td align="left"
                                                                                                             class="imageContent ckediting_enabled"
                                                                                                             valign="bottom">
-                                                                                                            <img class="flexibleImage"
-                                                                                                                 src="https://spenden.rotenasen.de/website/image/ir.attachment/698_72d3f32/datas"></img>
+                                                                                                            <a href="https://www.rotenasen.de"><img class="flexibleImage"
+                                                                                                                                                    src="/fso_website_email_rnde/static/src/img/footer_logo_rnde_1.jpeg"></img></a>
                                                                                                         </td>
                                                                                                     </tr>
                                                                                                 </tbody>

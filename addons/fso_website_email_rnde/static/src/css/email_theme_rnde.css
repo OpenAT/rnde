@@ -40,7 +40,7 @@ html body #wrapwrap {
 /* ---------- */
 /* Typography */
 /* ---------- */
-p, td, a, div, span {
+body, p, td, a, div {
     /*font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", Helvetica, Arial, sans-serif;*/
     font-family: 'PT Sans', "Trebuchet MS", sans-serif;
     font-size: 16px;

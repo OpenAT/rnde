@@ -40,12 +40,15 @@ html body #wrapwrap {
 /* ---------- */
 /* Typography */
 /* ---------- */
-body, p, td, a, div {
-    /*font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", Helvetica, Arial, sans-serif;*/
-    font-family: 'PT Sans', "Trebuchet MS", sans-serif;
+body, p, a {
+    /*font-family: 'PT Sans', 'Trebuchet MS', sans-serif;*/
+    font-family: PT Sans, Trebuchet MS, sans-serif;
     font-size: 16px;
-    line-height: 1.5em;
     color: #364979;
+}
+/* ATTENTION: Do not add line-height to "td", "div" or "span" elements to support Outlook 2013 and alike */
+p, a {
+    line-height: 1.5em;
 }
 div, span, td {
     font-size: inherit;
@@ -75,7 +78,8 @@ h1, h2, h3 {
 }
 .h1, .h2, .h3, .h4, .h5, .h6,
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'PT Sans', "Trebuchet MS", sans-serif;
+    /*font-family: 'PT Sans', 'Trebuchet MS', sans-serif;*/
+    font-family: PT Sans, Trebuchet MS, sans-serif;
     line-height: 140%;
     color: #364979;
 

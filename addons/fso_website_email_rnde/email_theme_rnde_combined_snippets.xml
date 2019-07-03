@@ -68,7 +68,7 @@
 
                                                                                                         <p class="rnde_small" style="text-align: right;">
                                                                                                             Bei Darstellungsproblemen klicken Sie bitte diesen
-                                                                                                            <a href="%open_browser%" style="color: #000000; font-size: 12px">Link</a>
+                                                                                                            <a href="%open_browser%" style="color: #364979; font-size: 12px">Link</a>
                                                                                                         </p>
                                                                                                     </td>
                                                                                                 </tr>
@@ -132,8 +132,10 @@
                                                                                                     <td align="left"
                                                                                                         class="imageContent ckediting_enabled"
                                                                                                         valign="top">
-                                                                                                        <a href="https://www.rotenasen.de"><img class="flexibleImage"
-                                                                                                                                                src="/fso_website_email_rnde/static/src/img/logo_1.jpeg"></img></a>
+                                                                                                        <a href="https://www.rotenasen.de">
+                                                                                                            <img class="flexibleImage"
+                                                                                                                 src="/fso_website_email_rnde/static/src/img/logo_1.jpeg"></img>
+                                                                                                        </a>
                                                                                                     </td>
                                                                                                 </tr>
                                                                                             </tbody>
@@ -234,12 +236,9 @@
                                                                                                 </span>
                                                                                             </h4>
                                                                                             <p style="text-align: center;">
-                                                                                                <p style="text-align: center;"><span tabindex="-1"><span tabindex="-1"><span tabindex="-1"><span tabindex="-1"><span tabindex="-1"><span tabindex="-1"><span tabindex="-1"><span tabindex="-1"><span tabindex="-1"><span tabindex="-1"><span tabindex="-1"><span tabindex="-1"><span tabindex="-1"><span class="fa fa-facebook-square fa-2x" data-widget="icons"></span></span></span></span></span></span></span></span></span></span></span></span></span></span><span style="background-color: transparent; font-size: 16px;"><![CDATA[&nbsp;]]><span tabindex="-1"><span tabindex="-1"><span tabindex="-1"><span tabindex="-1"><span tabindex="-1"><span tabindex="-1"><span tabindex="-1"><span tabindex="-1"><span tabindex="-1"><span tabindex="-1"><span tabindex="-1"><span tabindex="-1"><span class="fa fa-camera fa-2x" data-widget="icons"></span></span></span></span></span></span></span></span></span></span></span></span></span><![CDATA[&nbsp;]]><span tabindex="-1"><span tabindex="-1"><span tabindex="-1"><span tabindex="-1"><span tabindex="-1"><span tabindex="-1"><span tabindex="-1"><span tabindex="-1"><span tabindex="-1"><span tabindex="-1"><span tabindex="-1"><span tabindex="-1"><span class="fa fa-youtube-square fa-2x" data-widget="icons"></span></span></span></span></span></span></span></span></span></span></span></span></span><![CDATA[&nbsp;&nbsp;]]></span></p>
-                                                                                                <!--
                                                                                                 <a href="https://www.facebook.com/RoteNasen.Deutschland/" target="_blank"><img src="https://spenden.rotenasen.de/fso_website_email_rnde/static/src/icons/facebook.png" alt="Facebook" title="Facebook"/></a>
-                                                                                                <a href="https://www.instagram.com/rotenasenclowndoctors/" target="_blank"><img src="https://spenden.rotenasen.de/fso_website_email_rnde/static/src/icons/instagram.jpeg" alt="Instagram" title="Instagram"/></a>
-                                                                                                <a href="https://twitter.com/rotenasenclowns" target="_blank"><img src="https://spenden.rotenasen.de/fso_website_email_rnde/static/src/icons/twitter.png" alt="Twitter" title="Twitter"/></a>
-                                                                                                -->
+                                                                                                <a href="https://www.instagram.com/rotenasenclowndoctors/" target="_blank"><img src="https://spenden.rotenasen.de/fso_website_email_rnde/static/src/icons/instagram.png" alt="Instagram" title="Instagram"/></a>
+                                                                                                <a href="https://www.youtube.com/user/RNDClowns" target="_blank"><img src="https://spenden.rotenasen.de/fso_website_email_rnde/static/src/icons/youtube.png" alt="Youtube" title="Youtube"/></a>
                                                                                             </p>
                                                                                             <h2 style="text-align: center;">
                                                                                                 <span style="color: #364979;">

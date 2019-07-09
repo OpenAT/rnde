@@ -9,14 +9,25 @@
     border: 1px solid #d20028;
     color: white;
     font-weight: bold;
+    /* outlook test   */
+    /*padding: 0;*/
+    /*border-top-width: 0.5em;*/
+    /*border-right-width: 1em;*/
+    /*border-bottom-width: 0.5em;*/
+    /*border-left-width: 1em;*/
 }
-
 
 /* BUTTON SIZE */
 #emailBody span.drop_in_button.dadi_di_button_medium,
 #emailBody span.drop_in_button.dadi_di_button_medium a {
     font-size: 18px;
     border-radius: 3px;
+    /* outlook test   */
+    /*padding: 0;*/
+    /*border-top-width: 0.6em;*/
+    /*border-right-width: 2em;*/
+    /*border-bottom-width: 0.6em;*/
+    /*border-left-width: 2em;*/
 }
 
 #emailBody span.drop_in_button.dadi_di_button_large,
@@ -26,6 +37,12 @@
 }
 #emailBody span.drop_in_button.dadi_di_button_large a {
     padding: 0.75em 3.5em;
+    /* outlook test   */
+    /*padding: 0;*/
+    /*border-top-width: 0.75em;*/
+    /*border-right-width: 3.5em;*/
+    /*border-bottom-width: 0.75em;*/
+    /*border-left-width: 3.5em;*/
 }
 
 #emailBody span.drop_in_button.dadi_di_button_huge,
@@ -35,6 +52,12 @@
 }
 #emailBody span.drop_in_button.dadi_di_button_huge a {
     padding: 0.8em 4.5em;
+    /* outlook test   */
+    /*padding: 0;*/
+    /*border-top-width: 0.8em;*/
+    /*border-right-width: 4.5em;*/
+    /*border-bottom-width: 0.8em;*/
+    /*border-left-width: 4.5em;*/
 }
 
 
@@ -88,5 +111,5 @@
 }
 #emailBody span.drop_in_button.rnde_di_button_width_full a {
     display: block;
-    width: 100%;
+    width: initial;
 }

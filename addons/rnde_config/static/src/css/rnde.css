@@ -93,6 +93,9 @@ body {
     font-style: normal;
     */
 }
+.control-label.f-legal_terms_web {
+    display: inline;   
+}
 /* BACKGROUND SNIPPED COLORS */
 .oe_grey { background-color: #eee !important; }
 .oe_grey_light { background-color: #eeeeeec7 !important; }

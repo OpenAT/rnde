@@ -68,7 +68,7 @@
 
                                                                                                         <p class="rnde_small" style="text-align: right;">
                                                                                                             Bei Darstellungsproblemen klicken Sie bitte
-                                                                                                            <a href="%open_browser%" style="color: #364979; font-size: 12px">hier</a>
+                                                                                                            <a href="%open_browser%" style="color: inherit; font-size: inherit">hier</a>
                                                                                                         </p>
                                                                                                     </td>
                                                                                                 </tr>
@@ -141,7 +141,7 @@
 
                                                                                                         <p class="rnde_tiny" style="text-align: right;">&amp;nbsp;</p>
 
-                                                                                                        <p class="rnde_small" style="text-align: right;">Bei Darstellungsproblemen klicken Sie bitte <a href="/fso/email/%open_browser%" style="color: #000000; font-size: 12px">hier</a>
+                                                                                                        <p class="rnde_small" style="text-align: right;">Bei Darstellungsproblemen klicken Sie bitte <a href="/fso/email/%open_browser%" style="color: inherit; font-size: inherit">hier</a>
                                                                                                         </p>
                                                                                                     </td>
                                                                                                 </tr>
@@ -179,45 +179,6 @@
                     </div>
 
                     <div class="oe_snippet_body ckediting_disabled rnde_bin">
-
-
-                            <div class="ckediting_disabled snippet_block snippet_block_text_intro rnde_snippet_block_padding_smallbox">
-                            <table cellpadding="0" cellspacing="0" class="centeringTable">
-                                <tbody>
-                                    <tr>
-                                        <td align="center" valign="top">
-                                            <table border="0" cellpadding="0" cellspacing="0" class="flexibleContainer">
-                                                <tbody>
-                                                    <tr>
-                                                        <td align="center" class="flexibleContainerCell" valign="top">
-                                                            <table border="0" cellpadding="0" cellspacing="0" class="nestedContainer">
-                                                                <tbody>
-                                                                    <tr>
-                                                                        <td align="center" class="nestedContainerCell" valign="top">
-                                                                            <table border="0" cellpadding="0" cellspacing="0" class="contentTable">
-                                                                                <tbody>
-                                                                                    <tr>
-                                                                                        <td class="textContent ckediting_enabled">
-                                                                                            <p class="rnde_small">
-                                                                                                <span style="color:#999999;">Rote Nasen ist Mitglied bei</span>
-                                                                                            </p>
-                                                                                        </td>
-                                                                                    </tr>
-                                                                                </tbody>
-                                                                            </table>
-                                                                        </td>
-                                                                    </tr>
-                                                                </tbody>
-                                                            </table>
-                                                        </td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
 
                         <div class="ckediting_disabled snippet_block snippet_block_text_intro">
                             <table cellpadding="0" cellspacing="0" class="centeringTable">

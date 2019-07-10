@@ -6,10 +6,9 @@
 #emailBody span.drop_in_button a {
     border-radius: 3px;
     background-color: #d20028;
-    border: 0.5em solid #d20028;
+    border: 1px solid #d20028;
     color: white;
     font-weight: bold;
-    padding: 0;
     /* outlook test   */
     /*padding: 0;*/
     /*border-top-width: 0.5em;*/

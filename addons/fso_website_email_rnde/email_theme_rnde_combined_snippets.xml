@@ -67,8 +67,8 @@
                                                                                                         </h4>
 
                                                                                                         <p class="rnde_small" style="text-align: right;">
-                                                                                                            Bei Darstellungsproblemen klicken Sie bitte diesen
-                                                                                                            <a href="%open_browser%" style="color: #364979; font-size: 12px">Link</a>
+                                                                                                            Bei Darstellungsproblemen klicken Sie bitte
+                                                                                                            <a href="%open_browser%" style="color: #364979; font-size: 12px">hier</a>
                                                                                                         </p>
                                                                                                     </td>
                                                                                                 </tr>
@@ -177,7 +177,48 @@
                              src="/fso_website_email_rnde/static/src/icons/footer_snippet.jpg"/>
                         <span class="oe_snippet_thumbnail_title">Footer Snippet</span>
                     </div>
+
                     <div class="oe_snippet_body ckediting_disabled rnde_bin">
+
+
+                            <div class="ckediting_disabled snippet_block snippet_block_text_intro rnde_snippet_block_padding_smallbox">
+                            <table cellpadding="0" cellspacing="0" class="centeringTable">
+                                <tbody>
+                                    <tr>
+                                        <td align="center" valign="top">
+                                            <table border="0" cellpadding="0" cellspacing="0" class="flexibleContainer">
+                                                <tbody>
+                                                    <tr>
+                                                        <td align="center" class="flexibleContainerCell" valign="top">
+                                                            <table border="0" cellpadding="0" cellspacing="0" class="nestedContainer">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td align="center" class="nestedContainerCell" valign="top">
+                                                                            <table border="0" cellpadding="0" cellspacing="0" class="contentTable">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td class="textContent ckediting_enabled">
+                                                                                            <p class="rnde_small">
+                                                                                                <span style="color:#999999;">Rote Nasen ist Mitglied bei</span>
+                                                                                            </p>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
                         <div class="ckediting_disabled snippet_block snippet_block_text_intro">
                             <table cellpadding="0" cellspacing="0" class="centeringTable">
                                 <tbody>
@@ -204,9 +245,9 @@
                                                                                                 </span>
                                                                                             </h4>
                                                                                             <p style="text-align: center;">
-                                                                                                <a href="https://www.facebook.com/RoteNasen.Deutschland/" target="_blank"><img src="/fso_website_email_rnde/static/src/icons/facebook.png" alt="Facebook" title="Facebook"/></a>
-                                                                                                <a href="https://www.instagram.com/rotenasenclowndoctors/" target="_blank"><img src="/fso_website_email_rnde/static/src/icons/instagram.png" alt="Instagram" title="Instagram"/></a>
-                                                                                                <a href="https://www.youtube.com/user/RNDClowns" target="_blank"><img src="/fso_website_email_rnde/static/src/icons/youtube.png" alt="Youtube" title="Youtube"/></a>
+                                                                                                <a href="https://www.facebook.com/RoteNasen.Deutschland/" target="_blank"><img src="/fso_website_email_rnde/static/src/icons/facebook.png" alt="Facebook" title="Facebook" height="67px" width="67px"/></a>
+                                                                                                <a href="https://www.instagram.com/rotenasenclowndoctors/" target="_blank"><img src="/fso_website_email_rnde/static/src/icons/instagram.png" alt="Instagram" title="Instagram" height="67px" width="67px"/></a>
+                                                                                                <a href="https://www.youtube.com/user/RNDClowns" target="_blank"><img src="/fso_website_email_rnde/static/src/icons/youtube.png" alt="Youtube" title="Youtube" height="67px" width="67px"/></a>
                                                                                             </p>
                                                                                             <h2 style="text-align: center;">
                                                                                                 <span style="color: #364979;">
@@ -457,6 +498,43 @@
                             </table>
                         </div>
 
+                        <div class="ckediting_disabled snippet_block snippet_block_text_intro rnde_snippet_block_padding_smallbox">
+                            <table cellpadding="0" cellspacing="0" class="centeringTable">
+                                <tbody>
+                                    <tr>
+                                        <td align="center" valign="top">
+                                            <table border="0" cellpadding="0" cellspacing="0" class="flexibleContainer">
+                                                <tbody>
+                                                    <tr>
+                                                        <td align="center" class="flexibleContainerCell" valign="top">
+                                                            <table border="0" cellpadding="0" cellspacing="0" class="nestedContainer">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td align="center" class="nestedContainerCell" valign="top">
+                                                                            <table border="0" cellpadding="0" cellspacing="0" class="contentTable">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td class="textContent ckediting_enabled">
+                                                                                            <p class="rnde_small">
+                                                                                                <span style="color:#999999;">Rote Nasen ist Mitglied bei</span>
+                                                                                            </p>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
 
                         <div class="ckediting_disabled snippet_block snippet_block_text_threecol">
                             <table cellpadding="0" cellspacing="0" class="centeringTable">
@@ -525,7 +603,7 @@
                                                                                                             style="text-align:center;"
                                                                                                             valign="top">
                                                                                                             <img class="flexibleImage"
-                                                                                                                 src="/fso_website_email_rnde/static/src/img/dfrv_logo.jpeg"
+                                                                                                                 src="/fso_website_email_rnde/static/src/img/dfrv_logo_1.jpeg"
                                                                                                                  style="text-align:center;"></img>
                                                                                                         </td>
                                                                                                     </tr>

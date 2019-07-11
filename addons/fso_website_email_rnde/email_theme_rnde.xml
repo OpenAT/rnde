@@ -8,6 +8,9 @@
         <link href='/fso_website_email_rnde/static/src/css/email_theme_rnde.css' rel='stylesheet' type='text/css' t-ignore="true"/>
         <link href='/fso_website_email_rnde/static/src/css/email_theme_rnde_snippets.css' rel='stylesheet' type='text/css' t-ignore="true"/>
         <link href='/fso_website_email_rnde/static/src/css/email_theme_rnde_snippets_buttons.css' rel='stylesheet' type='text/css' t-ignore="true"/>
+
+        <!-- NEW: Bullet Proof Buttons -->
+        <link href='/fso_website_email_rnde/static/src/css/email_theme_rnde_snippets_bpbuttons.css' rel='stylesheet' type='text/css' t-ignore="true"/>
         
         <link href='/fso_website_email_rnde/static/src/css/email_theme_rnde_responsive.css' rel='stylesheet' type='text/css' t-ignore="true"/>
         <link href='/fso_website_email_rnde/static/src/css/email_theme_rnde_snippets_buttons_responsive.css' rel='stylesheet' type='text/css' t-ignore="true"/>
@@ -40,7 +43,6 @@
         <link href='/fso_website_email_rnde/static/src/css/rnde_editmode_only.css' rel='stylesheet' type='text/css' t-ignore="true"/>
     </template>
 
-    
     <!-- rnde HEADER CONTENT -->
     <template id="email_theme_rnde_header" name="rnde Header">
         <div id="rnde_header"></div>

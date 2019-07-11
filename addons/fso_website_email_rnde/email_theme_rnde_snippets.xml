@@ -133,6 +133,19 @@
                 </li>
             </div>
         </xpath>
+
+        <!-- NEW: .snippet_block_bpbutton Extra Styles -->
+        <xpath expr="//div[@data-snippet-option-id='snippet_block_bpbutton_style']//ul" position="inside">
+            <li data-value='bpbutton_style_green'>
+                <a>Gruen</a>
+            </li>
+            <li data-value='bpbutton_style_blue'>
+                <a>Blau</a>
+            </li>
+           <li data-value='bpbutton_style_yellow'>
+                <a>Gelb</a>
+            </li>
+        </xpath>
         
         <!-- .snippet_block_banner Options -->
         <xpath expr="//div[@data-snippet-option-id='dadi_sb_bg_width']" position="after">

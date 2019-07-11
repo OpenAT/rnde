@@ -1,0 +1,88 @@
+/*
+    ======================
+    snippet_block_bpbutton
+    ======================
+*/
+
+/* Base Style */
+.snippet_block_bpbutton .bpbutton_table,
+.snippet_block_bpbutton .bpbutton_table a {
+    font-weight: bold;
+    text-underline: none;
+    text-decoration: none;
+    /* for safety */
+    background-color: #d20028;
+    border-color: #d20028;
+    color: #ffffff;
+}
+
+/*
+    ---------------
+    SNIPPET OPTIONS
+    ---------------
+*/
+
+/* Additional button sizes */
+/* ----------------------- */
+/* medium*/
+.snippet_block_bpbutton.bpbutton_medium .bpbutton_table {
+    border-radius: 4px;
+}
+.snippet_block_bpbutton.bpbutton_medium .bpbutton_table a {
+    font-size: 18px;
+    border-width: 0.5em 1.25em;
+}
+/* large */
+.snippet_block_bpbutton.bpbutton_large .bpbutton_table {
+    border-radius: 5px;
+}
+.snippet_block_bpbutton.bpbutton_large .bpbutton_table a {
+    font-size: 20px;
+    border-width: 0.5em 1.56em;
+}
+/* huge */
+.snippet_block_bpbutton.bpbutton_huge .bpbutton_table {
+    border-radius: 6px;
+}
+.snippet_block_bpbutton.bpbutton_huge .bpbutton_table a {
+    font-size: 24px;
+    border-width: 0.4em 1.95em;
+}
+
+
+/* Additional button colors */
+/* ------------------------ */
+/* bpbutton_style_default */
+.snippet_block_bpbutton.bpbutton_style_default .bpbutton_table,
+.snippet_block_bpbutton.bpbutton_style_default .bpbutton_table a {
+    background-color: #d20028;
+    border-color: #d20028;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* green */
+.snippet_block_bpbutton.bpbutton_style_green .bpbutton_table,
+.snippet_block_bpbutton.bpbutton_style_green .bpbutton_table a {
+    background-color: #63bc46;
+    border-color: #63bc46;
+    color: white;
+    font-weight: bold;
+}
+/* blue */
+.snippet_block_bpbutton.bpbutton_style_blue .bpbutton_table,
+.snippet_block_bpbutton.bpbutton_style_blue .bpbutton_table a {
+    background-color: #364979;
+    border-color: #364979;
+    color: white;
+    font-weight: bold;
+}
+/* yellow */
+.snippet_block_bpbutton.bpbutton_style_yellow .bpbutton_table,
+.snippet_block_bpbutton.bpbutton_style_yellow .bpbutton_table a {
+    background-color: #f4e485;
+    border-color: #f4e485;
+    color: #5a5a5a;
+    font-weight: bold;
+}
+

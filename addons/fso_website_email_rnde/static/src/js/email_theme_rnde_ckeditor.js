@@ -11,6 +11,10 @@
             // Set custom toolbar
             // https://docs.ckeditor.com/ckeditor4/latest/guide/dev_toolbar.html
             config.toolbar = [{
+                name: 'insert', items: [
+                    "PrintField"
+                ]
+            }, {
                 name: 'basicstyles', items: [
                     "Bold", "Italic", "Underline", "Strike", "Subscript",
                     "Superscript", "TextColor", "BGColor", "RemoveFormat"

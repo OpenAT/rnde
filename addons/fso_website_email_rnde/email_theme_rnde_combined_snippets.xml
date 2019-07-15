@@ -207,7 +207,7 @@
                                                                                             </h4>
                                                                                             <p style="text-align: center;">
                                                                                                 <a href="https://www.facebook.com/RoteNasen.Deutschland/" target="_blank"><img src="/fso_website_email_rnde/static/src/icons/facebook.png" alt="Facebook" title="Facebook" height="67px" width="67px"/></a>
-                                                                                                <a href="https://www.instagram.com/rotenasenclowndoctors/" target="_blank"><img src="/fso_website_email_rnde/static/src/icons/instagram.png" alt="Instagram" title="Instagram" height="67px" width="67px"/></a>
+                                                                                                <a href="https://www.instagram.com/rotenasen.deutschland/" target="_blank"><img src="/fso_website_email_rnde/static/src/icons/instagram.png" alt="Instagram" title="Instagram" height="67px" width="67px"/></a>
                                                                                                 <a href="https://www.youtube.com/user/RNDClowns" target="_blank"><img src="/fso_website_email_rnde/static/src/icons/youtube.png" alt="Youtube" title="Youtube" height="67px" width="67px"/></a>
                                                                                             </p>
                                                                                             <h2 style="text-align: center;">
@@ -348,7 +348,7 @@
                                                                                                                 Steuer-Nr.:
                                                                                                                 27/676/52410
                                                                                                                 <br/>
-                                                                                                                <a style="font-weight: Bold; text-decoration: underline;" >Unser
+                                                                                                                <a style="font-weight: Bold; text-decoration: none;">Unser
                                                                                                                 Spendenkonto:</a>
                                                                                                                 <br/>
                                                                                                                 IBAN:
@@ -372,7 +372,7 @@
                                                                                                             class="imageContent ckediting_enabled"
                                                                                                             valign="bottom">
                                                                                                             <a href="https://www.rotenasen.de"><img class="flexibleImage"
-                                                                                                                                                    src="/fso_website_email_rnde/static/src/img/footer_logo_rnde_1.jpeg"></img></a>
+                                                                                                                                                    src="/fso_website_email_rnde/static/src/img/logo_1.jpeg"></img></a>
                                                                                                         </td>
                                                                                                     </tr>
                                                                                                 </tbody>

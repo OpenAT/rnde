@@ -3,11 +3,16 @@
 /* ---------- */
 
 @media only screen and (max-width: 480px) {
-    #pfot_header_body {
-        display: none !important;
-    }
+    /*#pfot_header_body {*/
+    /*    display: none !important;*/
+    /*}*/
 
-    #pfot_header_body, #emailBody, #pfot_footer_body,
+    /*#pfot_header_body, #emailBody, #pfot_footer_body,*/
+    /*table.flexibleContainer {*/
+    /*    width: 100% !important;*/
+    /*}*/
+
+    #emailBody,
     table.flexibleContainer {
         width: 100% !important;
     }

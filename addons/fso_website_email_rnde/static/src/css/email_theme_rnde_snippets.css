@@ -169,6 +169,7 @@
 }
 .snippet_block_text_image_left.rnde_text_image_blue_box .textContent p,
 .snippet_block_text_image_left.rnde_text_image_blue_box .textContent a,
+.snippet_block_text_image_left.rnde_text_image_blue_box .textContent a:visited,
 .snippet_block_text_image_left.rnde_text_image_blue_box .textContent div,
 .snippet_block_text_image_left.rnde_text_image_blue_box .textContent h1,
 .snippet_block_text_image_left.rnde_text_image_blue_box .textContent h2,
@@ -177,6 +178,7 @@
 .snippet_block_text_image_left.rnde_text_image_blue_box .textContent h5,
 .snippet_block_text_image_left.rnde_text_image_red_box .textContent p,
 .snippet_block_text_image_left.rnde_text_image_red_box .textContent a,
+.snippet_block_text_image_left.rnde_text_image_red_box .textContent a:visited,
 .snippet_block_text_image_left.rnde_text_image_red_box .textContent div,
 .snippet_block_text_image_left.rnde_text_image_red_box .textContent h1,
 .snippet_block_text_image_left.rnde_text_image_red_box .textContent h2,

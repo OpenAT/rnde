@@ -65,10 +65,12 @@ p {
     -webkit-margin-end: inherit;
 }
 /* Links */
-a {
+a,
+a:visited {
     color: #d20028;
     text-decoration: underline;
 }
+
 /* Headlines */
 .h1, .h2, .h3,
 h1, h2, h3 {

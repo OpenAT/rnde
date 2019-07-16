@@ -6,7 +6,8 @@
 
 /* Base Style */
 .snippet_block_bpbutton .bpbutton_table,
-.snippet_block_bpbutton .bpbutton_table a {
+.snippet_block_bpbutton .bpbutton_table a,
+.snippet_block_bpbutton .bpbutton_table a:visited {
     font-weight: bold;
     text-underline: none;
     text-decoration: none;

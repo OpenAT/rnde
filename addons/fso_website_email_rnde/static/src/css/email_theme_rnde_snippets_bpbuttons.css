@@ -4,10 +4,35 @@
     ======================
 */
 
+/* BUGFIX for o8r298 ALREADY INCLUDED IN o8r299 and higher */
+/* Inner anchor */
+.snippet_block_bpbutton .bpbutton_table p {
+    line-height: initial;
+    line-height: normal;
+    /* reset padding */
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    /* reset margin */
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+
+}
+
+
+
 /* Base Style */
 .snippet_block_bpbutton .bpbutton_table,
 .snippet_block_bpbutton .bpbutton_table a,
 .snippet_block_bpbutton .bpbutton_table a:visited {
+    /* BUGFIX for o8r298 ALREADY INCLUDED IN o8r299 and higher */
+    line-height: initial;
+    line-height: normal;
+    /* END BUGFIX */
+    /* font */
     font-weight: bold;
     text-underline: none;
     text-decoration: none;

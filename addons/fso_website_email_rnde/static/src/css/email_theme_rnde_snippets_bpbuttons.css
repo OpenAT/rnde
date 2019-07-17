@@ -4,7 +4,7 @@
     ======================
 */
 
-/* BUGFIX for o8r298 ALREADY INCLUDED IN o8r299 and higher */
+/* BUGFIX for o8r298 ALREADY INCLUDED IN o8r299 and higher: remove after core update */
 /* Inner anchor */
 .snippet_block_bpbutton .bpbutton_table p {
     line-height: initial;

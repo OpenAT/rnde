@@ -24,3 +24,11 @@
 .modal-dialog .form-group label {
     font-size: 13px;
 }
+
+
+/* Hide pictorgram tab for email editor - request from marieke wittneben */
+body .tab-content #editor-media-icon,
+a[href="#editor-media-icon"] {
+    display: none !important;
+}
+

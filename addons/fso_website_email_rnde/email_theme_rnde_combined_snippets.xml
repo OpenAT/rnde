@@ -27,7 +27,7 @@
                              src="/fso_website_email_rnde/static/src/icons/header_snippet.png"/>
                         <span class="oe_snippet_thumbnail_title">Header Snippet</span>
                     </div>
-                    <div class="oe_snippet_body ckediting_enabled snippet_block snippet_block_text_image_left rnde_snippet_block_padding_none">
+                    <div id="combinedheadersnippet" class="oe_snippet_body ckediting_enabled snippet_block snippet_block_text_image_left rnde_snippet_block_padding_none" style="padding-top: 10px;">
                         <table cellpadding="0" cellspacing="0" class="centeringTable">
                             <tbody>
                                 <tr>
@@ -66,9 +66,9 @@
                                                                                                             </span>
                                                                                                         </h4>
 
-                                                                                                        <p class="rnde_small" style="text-align: right;">
+                                                                                                        <p class="rnde_small" style="text-align: right; font-size: 12px; padding-top: 5px;">
                                                                                                             Bei Darstellungsproblemen klicken Sie bitte
-                                                                                                            <a href="%open_browser%" style="color: inherit; font-size: inherit">hier</a>
+                                                                                                            <a href="%open_browser%" style="color: inherit; font-size: 12px">hier</a>
                                                                                                         </p>
                                                                                                     </td>
                                                                                                 </tr>
@@ -102,7 +102,7 @@
                              src="/fso_website_email_rnde/static/src/icons/header_snippet_NL.png"/>
                         <span class="oe_snippet_thumbnail_title">Header Snippet NL</span>
                     </div>
-                    <div class="oe_snippet_body ckediting_enabled snippet_block snippet_block_text_image_left rnde_text_image_red_box rnde_medium_image rnde_image_height_150 rnde_image_valign_middle">
+                    <div id="combinedheadersnippetNL" class="oe_snippet_body ckediting_enabled snippet_block snippet_block_text_image_left rnde_text_image_red_box rnde_medium_image rnde_image_height_150 rnde_image_valign_middle" style="padding-top: 10px;">
                         <table cellpadding="0" cellspacing="0" class="centeringTable">
                             <tbody>
                                 <tr>
@@ -141,7 +141,7 @@
 
                                                                                                         <p class="rnde_tiny" style="text-align: right;">&amp;nbsp;</p>
 
-                                                                                                        <p class="rnde_small" style="text-align: right;">Bei Darstellungsproblemen klicken Sie bitte <a href="/fso/email/%open_browser%" style="color: inherit; font-size: inherit">hier</a>
+                                                                                                        <p class="rnde_small" style="text-align: right; font-size: 12px; padding-top: 5px;">Bei Darstellungsproblemen klicken Sie bitte <a href="/fso/email/%open_browser%" style="color: inherit; font-size: 12px">hier</a>
                                                                                                         </p>
                                                                                                     </td>
                                                                                                 </tr>
@@ -180,7 +180,7 @@
 
                     <div class="oe_snippet_body ckediting_disabled rnde_bin">
 
-                        <div class="ckediting_disabled snippet_block snippet_block_text_intro">
+                        <div id="combindedsnippetfooter" class="ckediting_disabled snippet_block snippet_block_text_intro">
                             <table cellpadding="0" cellspacing="0" class="centeringTable">
                                 <tbody>
                                     <tr>
@@ -189,8 +189,7 @@
                                                 <tbody>
                                                     <tr>
                                                         <td align="center" class="flexibleContainerCell" valign="top">
-                                                            <table border="0" cellpadding="0" cellspacing="0"
-                                                                   class="nestedContainer">
+                                                            <table border="0" cellpadding="0" cellspacing="0" class="nestedContainer">
                                                                 <tbody>
                                                                     <tr>
                                                                         <td align="center" class="nestedContainerCell"
@@ -333,11 +332,6 @@
                                                                                                             </h3>
 
                                                                                                             <p>
-                                                                                                                Geschäftsführung:
-                                                                                                                Kirsten
-                                                                                                                Kaup, Claus
-                                                                                                                Gieschen
-                                                                                                                <br/>
                                                                                                                 Großkopfstraße
                                                                                                                 6-7
                                                                                                                 <br/>
@@ -345,9 +339,15 @@
                                                                                                                 <br/>
                                                                                                                 office@rotenasen.de
                                                                                                                 <br/>
+                                                                                                                Geschäftsführung:
+                                                                                                                Kirsten
+                                                                                                                Kaup, Claus
+                                                                                                                Gieschen
+                                                                                                                <br/>
                                                                                                                 Steuer-Nr.:
                                                                                                                 27/676/52410
                                                                                                                 <br/>
+                                                                                                                <p></p>
                                                                                                                 <a style="font-weight: Bold; text-decoration: none;">Unser
                                                                                                                 Spendenkonto:</a>
                                                                                                                 <br/>

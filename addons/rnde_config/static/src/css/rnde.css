@@ -495,10 +495,15 @@ body[data-catid="2"] .ppt_opc #wsd_checkout_form > div > h3:after {
 */
 /* Login buttons end */
 /* Shopping Cart Mini Icon */
-/*  .fa-shopping-cart:before {*/
+  .fa-shopping-cart:before {
     /*content: "\f16b";*/
-/*    content: "\f004";
-  }*/
+    content: "\f184";
+  }
+  /*
+.fa-gittip:before {
+    content: "\f184";
+}*/
+
 [data-name='frst-submit-button'] {
   max-width: initial !important;
         text-align: center;
@@ -722,4 +727,24 @@ div.product_price.text-primary {
         bottom: 0px !important;
     }
 
+}
+
+#payment_method .nav.nav-tabs li.active a {
+    background-color: #eeeeeec7;
+}
+#payment_method .nav.nav-tabs li.active a:hover {
+        background-color: #A8A8A8;
+}
+/* BIC Ausblenden */
+#aq4 > div:nth-child(6) {
+    display: none;
+}
+#payment_method .acquirer_pre_msg p {
+    padding: 8px;
+}
+.wsd_payment_page_content .payment_billing_address .billing_address .email {
+    display: none;
+}
+#payment_method .nav > li > a {
+    padding: 5px 5px;
 }

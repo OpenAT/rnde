@@ -38,12 +38,19 @@ html body #wrapwrap {
 /* ---------- */
 /* Typography */
 /* ---------- */
-body, p, a {
+/* Workaround for Outlook  mso-special-format:bullet;  ul li, and ol and li*/
+body,
+p,
+a,
+#emailBody ul li,
+#emailBody ol li {
     /*font-family: 'PT Sans', 'Trebuchet MS', sans-serif;*/
     font-family: PT Sans, Trebuchet MS, sans-serif;
     font-size: 16px;
     color: #364979;
 }
+
+
 /* ATTENTION: Do not add line-height to "td", "div" or "span" elements to support Outlook 2013 and alike */
 p {
     line-height: 1.5em;

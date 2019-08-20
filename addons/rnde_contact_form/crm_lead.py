@@ -19,5 +19,3 @@ class CrmLeadRNDE(models.Model):
     rnde_nachricht = fields.Text('Nachricht')
 
     rnde_newsletter = fields.Boolean('Newsletter')
-
-

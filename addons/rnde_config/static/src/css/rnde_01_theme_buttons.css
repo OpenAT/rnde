@@ -1,0 +1,47 @@
+/* ----------------- */
+/* BOOTSTRAP BUTTONS */
+/* ----------------- */
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    margin-bottom: 0;
+    font-size: 17px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    text-decoration: none;
+}
+.btn .glyphicon {
+    top: 3px;
+}
+
+.btn-primary {
+    color: white;
+    background-color: #b50227;
+    border-color: #b50227;
+}
+
+.btn-primary:hover {
+    color: white;
+    background-color: #d4042f;
+    border-color: #d4042f;
+}
+
+body .btn-xl,
+body .btn-group-xl > .btn {
+    padding: 14px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.33;
+    border-radius: 6px;
+}

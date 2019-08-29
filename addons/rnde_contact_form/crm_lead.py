@@ -7,6 +7,10 @@ class CrmLeadRNDE(models.Model):
     _inherit = "crm.lead"
 
     rnde_anrede = fields.Char('Anrede')
+    rnde_anrede_select = fields.Selection(string='Anrede Select', selection=[('herr', 'Herr'),
+                                                                             ('frau', 'Frau'),
+                                                                             ('andere', 'Andere')])
+
     rnde_titel = fields.Char('Titel')
 
     rnde_vorname = fields.Char('Vorname')

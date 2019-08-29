@@ -1,0 +1,217 @@
+/* ----- */
+/* LOGIN */
+/* ----- */
+#website_sale_login_info {
+    display: none;
+}
+
+/* ----------------------------- */
+/* PRODUCT PAGE AND CHECKOUT BOX */
+/* ----------------------------- */
+body #website_sale_donate {
+    background-color: #ffffff;
+}
+body .oe_website_sale h1 {
+    margin-top: 25px;
+    margin-bottom: 12px;
+}
+#product_desc_short_top h1 {
+    margin-top: 25px;
+    margin-bottom: 12px;
+}
+#price_donate {
+    color: #35477a;
+}
+#product_detail .amount_title {
+    text-align: center;
+}
+/* Add some space between donation buttons and input on small layout */
+.price_donate_suggested_outer {
+    display: inline-block;
+}
+.price_donate_suggested_outer,
+.form-group.price_donate {
+    margin-top: 12px;
+}
+#wsd-checkout-box {
+    margin-top: 16px;
+}
+
+
+/* ------------------- */
+/* SHOP CATEGORY PAGES */
+/* ------------------- */
+
+/* Product GRID */
+/* ------------ */
+#products_grid .oe_product section {
+    background: #D4121E;
+    font-size: 20px;
+}
+#products_grid .oe_product section h5 {
+    font-size: 20px;
+}
+#products_grid .oe_product section a {
+    color: white;
+}
+#products_grid .product_price.text-primary {
+    color: white;
+}
+#products_grid .oe_product .oe_product_image img {
+    height: 100%;
+    max-height: initial;
+    width: auto;
+    max-width: initial;
+}
+body .col-md-9 .oe-height-2 {
+  height: 280px;
+}
+/* bis 400 px */
+@media (max-width: 400px) {
+    body #products_grid .oe_product section {
+        background: #D4121E;
+    }
+}
+/* ab 992px */
+@media (min-width: 992px) {
+    body .col-md-9 .oe-height-2 {
+        height: 280px;
+    }
+}
+/* ab 1200px */
+@media (min-width: 1200px) {
+    body .col-md-9 .oe-height-2 {
+        height: 280px;
+    }
+}
+
+
+/* ---- */
+/* CART */
+/* ---- */
+.fa-shopping-cart:before {
+    /*content: "\f06c";*/
+    content: "\f184";
+}
+h3.small_cart_header a {
+    color: #35477a;
+}
+.oe_website_sale .oe_cart #right_column {
+    display: inline-block;
+}
+
+
+/* --------------- */
+/* STEPS INDICATOR */
+/* --------------- */
+.checkout_steps_indicator > li > a {
+    color: #35477a;
+}
+.checkout_steps_indicator > li.active > a {
+    color: white;
+    background-color: #b50227;
+}
+.checkout_steps_indicator > li:active > a:hover {
+    background-color: #bf0232;
+}
+/* Hide the login Button TODO: I think there is a setting for this in the backend? */
+#wsd_checkout_steps_nav a[href*="login"] {
+    display: none;
+}
+
+
+/* -------- */
+/* CHECKOUT */
+/* -------- */
+#wsd_checkout_form label.control-label.mandatory.text-danger {
+    color: #b50227;
+}
+#wsd_checkout_form label.control-label.mandatory.text-danger:after {
+    content: " *";
+}
+/* TODO: Check if this is really needed */
+#wsd_checkout_form .control-label.f-legal_terms_web {
+    display: inline;
+}
+body #wsd_checkout_form .form-control-feedback {
+    top: 25px;
+}
+#wsd_checkout_form .billing-fields .form-control-feedback {
+    right: 15px;
+}
+/* TODO Check if really needed */
+#wsd_checkout_form .form-control {
+    padding: auto;
+}
+
+/* ONE PAGE CHECKOUT */
+/* ----------------- */
+/* Hide delivery section TODO: This should not be needed there should be backend settings for this */
+.row .wsd_opc_delivery {
+    display: none;
+}
+.ppt_opc h3.amount_title {
+    text-align: center;
+}
+/* TODO: Ask joe why he hides the small cart on opc pages - Isent there a setting for this in the product or backend? */
+.ppt_opc .row.ppt_opc-small_cart {
+    display: none;
+}
+
+/* ------- */
+/* PAYMENT */
+/* ------- */
+#payment_method .acquirer_pre_msg p {
+    padding: 8px;
+}
+
+/* BIC ausblenden TODO: Do this by xml! */
+#aq4 > div:nth-child(6) {
+    display: none;
+}
+/* E-Mail billing_address email ausblenden TODO: maybe not needed if renamed to "Ihre Angaben" */
+.wsd_payment_page_content .payment_billing_address .billing_address .email {
+    display: none;
+}
+/* Hide Checkbox for Zahlschein payment method */
+#payment_method .do_not_send_payment_forms {
+    display: none;
+}
+
+/* Payment Tabs */
+/* ------------ */
+#payment_method .nav > li > a {
+    padding: 5px 5px;
+}
+#payment_method .nav.nav-tabs li.active a {
+    background-color: #E3E3E3;
+}
+#payment_method .nav.nav-tabs li.active a:hover {
+    background-color: #E3E3E3;
+}
+#payment_method .nav > li {
+    /*min-width: 100px;*/
+}
+#payment_method .nav > li > a {
+    padding: 5px 5px;
+    text-align: center;
+}
+#payment_method .nav > li > a img {
+    margin: 0 auto;
+    width: 60px;
+    height: 43px;
+}
+#payment_method .nav-tabs > li.active > a,
+#payment_method .nav-tabs > li.active > a:hover,
+#payment_method .nav-tabs > li.active > a:focus {
+    color: #3d649e;
+}
+
+/* ---------------- */
+/* ACQUIRER BUTTONS */
+/* ---------------- */
+
+/*[data-name='ogonedadi-submit-button'],*/
+/*[data-name='frst-submit-button'] {*/
+/*    max-width: 100%;*/
+/*}*/

@@ -61,48 +61,75 @@ auf die Größe des Iframes und nicht auf die darüberliegende Seitengröße.
     background-color: #b50227;
     border-color: #b50227;
 }
+
 .btn-primary:hover {
     color: white;
     background-color: #d4042f;
     border-color: #d4042f;
 }
-#wsd_checkout_form label.control-label.mandatory.text-danger  {
+
+#wsd_checkout_form label.control-label.mandatory.text-danger {
     color: #b50227;
 }
+
 #wsd_checkout_form label.control-label.mandatory.text-danger:after {
     content: " *";
 }
+
 .glyphicon-info-sign {
     color: white;
     background-color: #b50227;
     border-color: #b50227;
 }
+
 .glyphicon-info-sign:hover {
     color: white;
     background-color: #b50227;
     border-color: #b50227;
 }
+
 body {
     color: #35477a;
     /*
    /* font-family: "MuseoSans",Helvetica,Arial,sans-serif;*/
-    font-family: 'Open Sans',sans-serif;
+    font-family: 'Open Sans', sans-serif;
     /*font-size: 1.5em;*/
     /*
     font-weight: normal;
     font-style: normal;
     */
 }
+
 .control-label.f-legal_terms_web {
-    display: inline;   
+    display: inline;
 }
+
 /* BACKGROUND SNIPPED COLORS */
-.oe_grey { background-color: #eee !important; }
-.oe_grey_light { background-color: #eeeeeec7 !important; }
-.oe_red { background-color: #b50227 !important; color: white; }
-.oe_white { background-color: #ffffff !important; }
-.oe_green { background-color: #63bc46 !important; }
-.oe_blue { background-color: #35477a !important; color: white; }
+.oe_grey {
+    background-color: #eee !important;
+}
+
+.oe_grey_light {
+    background-color: #eeeeeec7 !important;
+}
+
+.oe_red {
+    background-color: #b50227 !important;
+    color: white;
+}
+
+.oe_white {
+    background-color: #ffffff !important;
+}
+
+.oe_green {
+    background-color: #63bc46 !important;
+}
+
+.oe_blue {
+    background-color: #35477a !important;
+    color: white;
+}
 
 /* Headers */
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -113,13 +140,16 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     padding: 0;
     margin: 0;*/
 }
+
 h3.small_cart_header a {
- color: #35477a;
+    color: #35477a;
 }
+
 .oe_website_sale h1 {
     margin-top: 25px !important;
     margin-bottom: 12.5px !important;
 }
+
 #product_desc_short_top h1 {
     margin-top: 25px;
     margin-bottom: 12.5px;
@@ -134,13 +164,16 @@ h3.small_cart_header a {
 .checkout_steps_indicator > li > a {
     color: #35477a;
 }
+
 .checkout_steps_indicator > li.active > a {
     color: white;
     background-color: #b50227;
 }
+
 .checkout_steps_indicator > li:active > a:hover {
     background-color: #bf0232;
 }
+
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover {
     background-color: #bf0232;
 }
@@ -148,22 +181,26 @@ h3.small_cart_header a {
 /* IFRAME MODAL BOX BEHAVIOR BEGIN */
 
 #wsd_checkout_form .form-group {
-        position: relative !important;
+    position: relative !important;
 }
+
 .modal-open .modal {
-        overflow: visible !important;
+    overflow: visible !important;
 }
-.modal {
-    position: absolute !important;
-}
+
+/*.modal {*/
+/*    position: absolute !important;*/
+/*}*/
 
 #oe_main_menu_navbar div.modal.in > div.modal-dialog > div.modal-content {
     position: relative;
 }
+
 /* BODY SCROLL AFTER ADDING MODAL BEHAVIOR -- STILL NEED TESTS */
 #wsd_checkout_steps_nav > div > div > a[href*="login"].btn.btn-primary.navbar-btn {
-  display: none;
+    display: none;
 }
+
 /* Login buttons end */
 /* Shopping Cart Mini Icon */
 .fa-shopping-cart:before {
@@ -210,7 +247,7 @@ h3.small_cart_header a {
 */
 
 /*.dropdown-menu>li>a {*/
-    /*color: white;*/
+/*color: white;*/
 /*
     font-family: "MuseoSans500-Regular",Helvetica,Arial,sans-serif;
 }
@@ -240,12 +277,15 @@ h3.small_cart_header a {
 .navbar-default .navbar-nav > li > a {
     color: #35477a;
 }
+
 .navbar-default .navbar-nav > li > a:hover {
     color: #b50227;
 }
+
 .dropdown-menu > li > a {
     color: #b50227;
 }
+
 .dropdown-menu > li > a:hover {
     color: white;
     background-color: #b50227;
@@ -268,6 +308,7 @@ header a.navbar-brand img {
 #price_donate {
     color: #35477a;
 }
+
 /*
 .price_donate {
     margin-top: 1em;
@@ -311,12 +352,15 @@ TODO Check ob diese Settings auch über BOOTSTRAP einstellbar sind
 #wsd_checkout_form .form-control {
     padding: auto;
 }
+
 .row .wsd_opc_delivery {
     display: none;
 }
+
 #website_sale_login_info {
     display: none;
 }
+
 /*
 @media (max-width: 740px) {
 .col-md-push-8 {
@@ -354,6 +398,7 @@ footer {
     /*color: #0f921a !important;*/
     color: grey !important;
 }
+
 /* Opensource logo rechts unten begin */
 #wrapwrap > footer > div.container.mt16.mb8 > div.pull-right {
     color: grey;
@@ -362,6 +407,7 @@ footer {
 #wrapwrap > footer > div.container.mt16.mb8 > div.text-muted {
     color: grey !important;
 }
+
 #wrapwrap > footer > div.container.mt16.mb8 > div.pull-right > a.label.label-danger {
     background-color: inherit;
     color: #red;
@@ -372,6 +418,7 @@ footer {
     color: #white;
     text-decoration: none;
 }
+
 /* Opensource logo rechts unten end */
 /*
 footer a {
@@ -380,8 +427,8 @@ footer a {
 }
 footer a:hover, a:focus {
 */
-    /*color: #0f921a;*/
-    /*mix-blend-mode: difference;*/
+/*color: #0f921a;*/
+/*mix-blend-mode: difference;*/
 /*
     color: white;
 }
@@ -443,8 +490,9 @@ header a.navbar-brand img {
 */
 
 [data-name='frst-submit-button'] {
-    max-width: 100% ;
+    max-width: 100%;
 }
+
 [data-name='ogonedadi-submit-button'] {
     max-width: 100%;
 }
@@ -467,6 +515,7 @@ header a.navbar-brand img {
 .ppt_opc .row.ppt_opc-small_cart {
     display: none;
 }
+
 /* OPC Überschreiben überschrift "Spendenhöhe" */
 /* Breich Mitgliedschaften */
 /* better Solution via JS and replace text, soon replaced by Odoo o8r68 Backend Solution */
@@ -483,11 +532,13 @@ body[data-catid="2"] .ppt_opc #wsd_checkout_form > div > h3:after {
 */
 /* Login Buttons */
 #top_menu > li.divider {
-  display: none;
+    display: none;
 }
+
 #top_menu > li:last-child {
-  display: none;
+    display: none;
 }
+
 /*
 #wsd_checkout_steps_nav > div > div > a.btn.btn-primary.navbar-btn {
   display: none;
@@ -495,61 +546,81 @@ body[data-catid="2"] .ppt_opc #wsd_checkout_form > div > h3:after {
 */
 /* Login buttons end */
 /* Shopping Cart Mini Icon */
-  .fa-shopping-cart:before {
+.fa-shopping-cart:before {
     /*content: "\f16b";*/
     content: "\f184";
-  }
-  /*
+}
+
+/*
 .fa-gittip:before {
-    content: "\f184";
+  content: "\f184";
 }*/
 
 [data-name='frst-submit-button'] {
-  max-width: initial !important;
-        text-align: center;
-      margin:auto;
-        display: block;
+    max-width: initial !important;
+    text-align: center;
+    margin: auto;
+    display: block;
 }
+
 [data-name='ogonedadi-submit-button'] {
-  max-width: initial !important;
+    max-width: initial !important;
 }
+
 [data-name='ogonedadi-submit-button'] {
     max-width: initial !important;
     min-width: 150px !important;
     margin-top: 142px !important;
     display: block;
-  margin:auto;
+    margin: auto;
     text-align: center;
 }
-    body #website_sale_donate {
-        -webkit-animation: fadeIn 2s;
-        background-color: #ffffff !important;
+
+body #website_sale_donate {
+    -webkit-animation: fadeIn 2s;
+    background-color: #ffffff !important;
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
     }
-    @-webkit-keyframes fadeIn {
-        0% { opacity: 0; }
-        100% { opacity: 1; }
+    100% {
+        opacity: 1;
     }
-    body .oe_website_sale {
-        -webkit-animation: fadeIn 2s;
+}
+
+body .oe_website_sale {
+    -webkit-animation: fadeIn 2s;
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
     }
-    @-webkit-keyframes fadeIn {
-        0% { opacity: 0; }
-        100% { opacity: 1; }
+    100% {
+        opacity: 1;
     }
-    .oe_website_sale .oe_cart #right_column {
+}
+
+.oe_website_sale .oe_cart #right_column {
+    display: inline-block;
+}
+
+@media (max-width: 740px) {
+    #right_column {
         display: inline-block;
     }
-    @media (max-width: 740px) {
-        #right_column {
-            display: inline-block;
-        }
-    }
-    .wsd_cart_page {
-        margin-bottom: 15px;
-    }
-    .wsd_checkout_page_content {
-        margin-bottom: 15px;
-    }
+}
+
+.wsd_cart_page {
+    margin-bottom: 15px;
+}
+
+.wsd_checkout_page_content {
+    margin-bottom: 15px;
+}
+
 #payment_method .tab-content {
     border-left: solid 1px #ddd;
     border-bottom: solid 1px #ddd;
@@ -557,21 +628,26 @@ body[data-catid="2"] .ppt_opc #wsd_checkout_form > div > h3:after {
     height: auto !important;
     padding-bottom: inherit;
 }
-    @media (max-width: 614px) {
-        #wrap > div.container.oe_website_sale > div.row.wsd_payment_page_content > div.col-sm-3.col-sm-offset-1 > div {
-            margin-left: 20px;
-            margin-top: 20px;
-        }
+
+@media (max-width: 614px) {
+    #wrap > div.container.oe_website_sale > div.row.wsd_payment_page_content > div.col-sm-3.col-sm-offset-1 > div {
+        margin-left: 20px;
+        margin-top: 20px;
     }
+}
+
 #payment_method .do_not_send_payment_forms {
     display: none;
 }
+
 .payment_interval_ids.payment_interval_lines_ids.text-left {
     text-align: center;
 }
+
 #product_detail .amount_title {
     text-align: center;
 }
+
 #wsd-checkout-box > div > div.panel-body.text-center > form > div > div.product_price.mt16 > h4.oe_price_h4.css_editable_mode_hidden.decimal_precision > div > div {
     padding: 0 0;
 }
@@ -591,6 +667,7 @@ body[data-catid="2"] .ppt_opc #wsd_checkout_form > div > h3:after {
 div.product_price.text-primary {
     color: white;
 }
+
 /* Shop Grid END */
 @media (max-width: 768px) {
     body[data-rootcatid="2"] #products_grid_before {
@@ -605,18 +682,20 @@ div.product_price.text-primary {
         height: 250px;
 
     }
+
     body[data-rootcatid="2"] #products_grid .oe_product {
         float: left;
         width: 350px;
         height: 250px;
         display: inline-block;
-        margin:2px;
-}
-    body[data-rootcatid="2"] .oe_product .oe_product_image img {
-        width: auto;
-        position: relative;
+        margin: 2px;
     }
 
+    /* Disabled by Mike */
+    /*body[data-rootcatid="2"] .oe_product .oe_product_image img {*/
+    /*    width: auto;*/
+    /*    position: relative;*/
+    /*}*/
     body[data-rootcatid="2"] .oe_product section {
         min-height: 30px;
     }
@@ -687,42 +766,50 @@ div.product_price.text-primary {
         display: none;
     }
 }
+
 /*no media*/
 
-    body[data-rootcatid="2"] #products_grid_before {
-        display: none;
-    }
+body[data-rootcatid="2"] #products_grid_before {
+    display: none;
+}
 
-    body[data-rootcatid="2"] .oe_grid .a-submit {
-        display: none;
-    }
-    body[data-rootcatid="2"] .oe_product.oe_grid.oe-height-2 {
-        height: 250px;
+body[data-rootcatid="2"] .oe_grid .a-submit {
+    display: none;
+}
 
-    }
-    body[data-rootcatid="2"] #products_grid .oe_product {
-        width: 350px;
-        height: 250px;
-        margin: 2px;
-    }
-    body[data-rootcatid="2"] .oe_product .oe_product_image {
-        left: 0;
-        right: 0;
-        top: 0;
-        bottom: 0;
-    }
-    body[data-rootcatid="2"] .oe_product .oe_product_image img {
-        width: auto;
-        position: relative;
-    }
+body[data-rootcatid="2"] .oe_product.oe_grid.oe-height-2 {
+    height: 250px;
+
+}
+
+body[data-rootcatid="2"] #products_grid .oe_product {
+    width: 350px;
+    height: 250px;
+    margin: 2px;
+}
+
+body[data-rootcatid="2"] .oe_product .oe_product_image {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+/* Disabled by Mike */
+/*body[data-rootcatid="2"] .oe_product .oe_product_image img {*/
+/*    width: auto;*/
+/*    position: relative;*/
+/*}*/
 
 @media (max-width: 400px ) {
     .oe_product .oe_product_image img {
         margin: initial !important;
     }
+
     #products_grid .oe_product section {
-    background: #D4121E !important;
-}
+        background: #D4121E !important;
+    }
+
     #products_grid .oe_product .oe_product_image {
         bottom: 0px !important;
     }
@@ -732,19 +819,24 @@ div.product_price.text-primary {
 #payment_method .nav.nav-tabs li.active a {
     background-color: #eeeeeec7;
 }
+
 #payment_method .nav.nav-tabs li.active a:hover {
-        background-color: #A8A8A8;
+    background-color: #A8A8A8;
 }
+
 /* BIC Ausblenden */
 #aq4 > div:nth-child(6) {
     display: none;
 }
+
 #payment_method .acquirer_pre_msg p {
     padding: 8px;
 }
+
 .wsd_payment_page_content .payment_billing_address .billing_address .email {
     display: none;
 }
+
 #payment_method .nav > li > a {
     padding: 5px 5px;
 }

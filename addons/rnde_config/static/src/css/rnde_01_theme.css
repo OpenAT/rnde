@@ -1,0 +1,98 @@
+
+body {
+    color: #35477a;
+    font-family: "PT Sans", "Trebuchet MS", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+/* footer */
+/* Not really needed to style since rnde uses only widgets */
+#wrapwrap footer {
+    background: white;
+    color: grey;
+}
+#wrapwrap footer > div.container.mt16.mb8 > div.pull-right,
+#wrapwrap footer > div.container.mt16.mb8 > div.text-muted {
+    color: grey;
+}
+#wrapwrap footer > div.container.mt16.mb8 > div.pull-right > a.label.label-danger {
+    background-color: inherit;
+    color: red;
+    text-decoration: none;
+}
+#wrapwrap footer > div.container.mt16.mb8 > div.pull-right a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Headers */
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    font-weight: bold;
+}
+h5, .h5 {
+    font-size: 17px;
+}
+h6, .h6 {
+    font-size: 17px;
+}
+
+/* ------------------- */
+/* BOOTSTRAP MODAL BOX */
+/* ------------------- */
+/* Modal Box Trigger */
+.btn-link.information-modal-box-trigger:hover {
+    color: #b50227;
+}
+
+/* -------------------- */
+/* BOOTSTRAP NAVIGATION */
+/* -------------------- */
+.navbar-default .navbar-nav > li > a {
+    color: #35477a;
+}
+.navbar-default .navbar-nav > li > a:hover {
+    color: #b50227;
+}
+.dropdown-menu > li > a {
+    color: #b50227;
+}
+.dropdown-menu > li > a:hover {
+    color: white;
+    background-color: #b50227;
+    -webkit-transition: color 0.3s ease 0s;
+    -moz-transition: color 0.3s ease 0s;
+    -o-transition: color 0.3s ease 0s;
+    -ms-transition: color 0.3s ease 0s;
+    transition: color 0.3s ease 0s;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover {
+    background-color: #bf0232;
+}
+
+
+/* ------------------- */
+/* DEFAULT ODOO COLORS */
+/* ------------------- */
+body .oe_grey {
+    background-color: #eee !important;
+}
+body .oe_grey_light {
+    background-color: #eeeeeec7 !important;
+}
+body .oe_red {
+    background-color: #b50227 !important;
+    color: white;
+}
+body .oe_white {
+    background-color: #ffffff !important;
+}
+body .oe_green {
+    background-color: #63bc46 !important;
+}
+body .oe_blue {
+    background-color: #35477a !important;
+    color: white;
+}

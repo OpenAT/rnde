@@ -21,14 +21,24 @@
             </div>
         </xpath>
     </template>
+
+
     <!-- load rnde theme css and js -->
     <template id="website.theme_rnde" name="RNDE" inherit_id="website.theme" active="True" customize_show="True">
         <xpath expr="//link[@id='bootstrap_css']" position="after">
             <!-- <link rel='stylesheet' href='/rnde_config/static/src/css/rnde_custom_fonts.css' t-ignore="true"/> -->
             <!--<link rel='stylesheet' href='/rnde_config/static/src/css/bootstrap_rnde/css/bootstrap.min.css' t-ignore="true"/> -->
             <!--<link rel='stylesheet' href='/rnde_config/static/src/css/bootstrap_rnde/css/bootstrap-theme.min.css' t-ignore="true"/> -->
-            <link rel='stylesheet' href='/rnde_config/static/src/css/rnde.css' t-ignore="true"/>
-<!--            <script type="text/javascript" src="/rnde_config/static/src/js/textreplace.js"/>-->
+            <!--<link rel='stylesheet' href='/rnde_config/static/src/css/rnde.css' t-ignore="true"/>-->
+            <!--<script type="text/javascript" src="/rnde_config/static/src/js/textreplace.js"/>-->
+
+            <!-- BY MIKE -->
+            <link rel='stylesheet' href='/rnde_config/static/src/css/rnde_01_theme.css' t-ignore="true"/>
+            <link rel='stylesheet' href='/rnde_config/static/src/css/rnde_01_theme_buttons.css' t-ignore="true"/>
+            <link rel='stylesheet' href='/rnde_config/static/src/css/rnde_02_shop.css' t-ignore="true"/>
+            <link rel='stylesheet' href='/rnde_config/static/src/css/rnde_09_glyphicons.css' t-ignore="true"/>
+            <link rel='stylesheet' href='/rnde_config/static/src/css/rnde_99_responsive.css' t-ignore="true"/>
+
         </xpath>
     </template>
 

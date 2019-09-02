@@ -1,28 +1,9 @@
-body {
-    color: #35477a;
-    font-family: "PT Sans", "Trebuchet MS", sans-serif;
-    font-size: 17px;
-    font-weight: 400;
-}
-
 /* FOOTER */
-/* Not really needed to style since rnde uses only widgets */
-#wrapwrap footer {
-    background: white;
-    color: grey;
-}
-#wrapwrap footer > div.container.mt16.mb8 > div.pull-right,
-#wrapwrap footer > div.container.mt16.mb8 > div.text-muted {
-    color: grey;
-}
-#wrapwrap footer > div.container.mt16.mb8 > div.pull-right > a.label.label-danger {
-    background-color: inherit;
-    color: red;
-    text-decoration: none;
-}
-#wrapwrap footer > div.container.mt16.mb8 > div.pull-right a {
-    color: white;
-    text-decoration: none;
+body #wrapwrap footer {
+    /* ATTENTION: The height can not be 100% anywhere or iframeresizer may just expand but never shrink the iframe!
+                  Therefore we reset the height of the footer to auto!
+    */
+    height: auto;
 }
 
 

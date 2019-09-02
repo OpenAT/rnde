@@ -1,47 +1,25 @@
 /* ----------------- */
 /* BOOTSTRAP BUTTONS */
 /* ----------------- */
-.btn {
-    display: inline-block;
-    padding: 12px 24px;
-    margin-bottom: 0;
-    font-size: 17px;
-    font-weight: normal;
-    line-height: 1.42857143;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+
+/* Remove Button BG Gradient */
+.btn-default, .btn-primary, .btn-success, .btn-info, .btn-warning, .btn-danger {
     background-image: none;
-    border: 1px solid transparent;
-    border-radius: 4px;
-    text-decoration: none;
+    /*background-image: -o-linear-gradient(top, #ffffff 0%, #e0e0e0 100%);*/
+    /*background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#e0e0e0));*/
+    /*background-image: linear-gradient(to bottom, #ffffff 0%, #e0e0e0 100%);*/
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffffffff', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
 }
+
+/* Button Shadow */
+/*.btn-default, .btn-primary, .btn-success, .btn-info, .btn-warning, .btn-danger {*/
+/*    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);*/
+/*    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);*/
+/*    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);*/
+/*}*/
+
+/* Button Glyphicon Positon */
 .btn .glyphicon {
     top: 3px;
-}
-
-.btn-primary {
-    color: white;
-    background-color: #b50227;
-    border-color: #b50227;
-}
-
-.btn-primary:hover {
-    color: white;
-    background-color: #d4042f;
-    border-color: #d4042f;
-}
-
-body .btn-xl,
-body .btn-group-xl > .btn {
-    padding: 14px 24px;
-    font-size: 20px;
-    font-weight: bold;
-    line-height: 1.33;
-    border-radius: 6px;
 }

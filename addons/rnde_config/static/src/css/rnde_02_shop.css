@@ -1,88 +1,41 @@
 /* ----- */
 /* LOGIN */
 /* ----- */
-#website_sale_login_info {
+body #website_sale_login_info {
     display: none;
 }
 
 /* ----------------------------- */
 /* PRODUCT PAGE AND CHECKOUT BOX */
 /* ----------------------------- */
-body #website_sale_donate {
-    background-color: #ffffff;
-}
-body .oe_website_sale h1 {
-    margin-top: 25px;
-    margin-bottom: 12px;
-}
-#product_desc_short_top h1 {
-    margin-top: 25px;
-    margin-bottom: 12px;
-}
-#price_donate {
-    color: #35477a;
-}
-#product_detail .amount_title {
+
+/* Center the Amount Title */
+body #product_detail .amount_title {
     text-align: center;
 }
+
+/* Reset the price donate input */
+body .price_donate .form-control {
+    font-size: 24px;
+    padding: inherit;
+    color: inherit;
+    text-align: inherit;
+}
+
 /* Add some space between donation buttons and input on small layout */
-.price_donate_suggested_outer {
+span.price_donate_suggested_outer {
     display: inline-block;
+     margin-bottom: 12px;
 }
-.price_donate_suggested_outer,
-.form-group.price_donate {
-    margin-top: 12px;
-}
-#wsd-checkout-box {
+
+/* Lower the checkoutbox to match the content on the left side */
+body #wsd-checkout-box {
     margin-top: 16px;
 }
 
-
-/* ------------------- */
-/* SHOP CATEGORY PAGES */
-/* ------------------- */
-
-/* Product GRID */
-/* ------------ */
-#products_grid .oe_product section {
-    background: #D4121E;
-    font-size: 20px;
-}
-#products_grid .oe_product section h5 {
-    font-size: 20px;
-}
-#products_grid .oe_product section a {
-    color: white;
-}
-#products_grid .product_price.text-primary {
-    color: white;
-}
-#products_grid .oe_product .oe_product_image img {
-    height: 100%;
-    max-height: initial;
-    width: auto;
-    max-width: initial;
-}
-body .col-md-9 .oe-height-2 {
-  height: 280px;
-}
-/* bis 400 px */
-@media (max-width: 400px) {
-    body #products_grid .oe_product section {
-        background: #D4121E;
-    }
-}
-/* ab 992px */
-@media (min-width: 992px) {
-    body .col-md-9 .oe-height-2 {
-        height: 280px;
-    }
-}
-/* ab 1200px */
-@media (min-width: 1200px) {
-    body .col-md-9 .oe-height-2 {
-        height: 280px;
-    }
+/* Add some space between the text and the interval selection */
+.payment_interval_ids div.form-group{
+    margin-top: 12px;
 }
 
 
@@ -100,20 +53,26 @@ h3.small_cart_header a {
     display: inline-block;
 }
 
+/* Order Total */
+#order_total h3 {
+    font-size: 18px;
+}
+
 
 /* --------------- */
 /* STEPS INDICATOR */
 /* --------------- */
-.checkout_steps_indicator > li > a {
-    color: #35477a;
+
+/* Full width and Buttons below */
+ul.checkout_steps_indicator {
+    width: 100%;
 }
-.checkout_steps_indicator > li.active > a {
-    color: white;
-    background-color: #b50227;
+div.checkout_steps_buttons {
+    width: 100%;
+    text-align: right;
+    margin-top: 1em;
 }
-.checkout_steps_indicator > li:active > a:hover {
-    background-color: #bf0232;
-}
+
 /* Hide the login Button TODO: I think there is a setting for this in the backend? */
 #wsd_checkout_steps_nav a[href*="login"] {
     display: none;
@@ -129,34 +88,19 @@ h3.small_cart_header a {
 #wsd_checkout_form label.control-label.mandatory.text-danger:after {
     content: " *";
 }
-/* TODO: Check if this is really needed */
-#wsd_checkout_form .control-label.f-legal_terms_web {
-    display: inline;
-}
-body #wsd_checkout_form .form-control-feedback {
-    top: 25px;
-}
-#wsd_checkout_form .billing-fields .form-control-feedback {
-    right: 15px;
-}
-/* TODO Check if really needed */
-#wsd_checkout_form .form-control {
-    padding: auto;
-}
+
 
 /* ONE PAGE CHECKOUT */
 /* ----------------- */
-/* Hide delivery section TODO: This should not be needed there should be backend settings for this */
+/* Hide delivery section TODO: Should be done by xml */
 .row .wsd_opc_delivery {
     display: none;
 }
+
 .ppt_opc h3.amount_title {
     text-align: center;
 }
-/* TODO: Ask joe why he hides the small cart on opc pages - Isent there a setting for this in the product or backend? */
-.ppt_opc .row.ppt_opc-small_cart {
-    display: none;
-}
+
 
 /* ------- */
 /* PAYMENT */
@@ -165,14 +109,16 @@ body #wsd_checkout_form .form-control-feedback {
     padding: 8px;
 }
 
-/* BIC ausblenden TODO: Do this by xml! */
+/* BIC ausblenden TODO: Must be done by xml! */
 #aq4 > div:nth-child(6) {
     display: none;
 }
+
 /* E-Mail billing_address email ausblenden TODO: maybe not needed if renamed to "Ihre Angaben" */
 .wsd_payment_page_content .payment_billing_address .billing_address .email {
     display: none;
 }
+
 /* Hide Checkbox for Zahlschein payment method */
 #payment_method .do_not_send_payment_forms {
     display: none;
@@ -206,6 +152,7 @@ body #wsd_checkout_form .form-control-feedback {
 #payment_method .nav-tabs > li.active > a:focus {
     color: #3d649e;
 }
+
 
 /* ---------------- */
 /* ACQUIRER BUTTONS */

@@ -2,15 +2,16 @@
 <openerp>
     <data>
 
+
     <!-- CUSTOM BOOTSTRAP THEME FOR RNDE -->
     <!-- HINT: http://getbootstrap.com/customize -->
-    <template id="rnde_theme_option" inherit_id="website.themes" name="rnde theme option">
+    <template id="rnde_theme_option"
+              inherit_id="website.themes" name="rnde theme option">
         <xpath expr='//div[@id="themes-list"]' position="inside">
             <div class="col-md-4">
                 <div class="well text-center">
                     <div class="image">
-                        <img class="img-responsive" src="/rnde_config/static/src/img/rnde_theme_thumbnail.png"
-                             alt="RNDE"/>
+                        <img class="img-responsive" src="/rnde_config/static/src/img/rnde_theme_thumbnail.png" alt="RNDE"/>
                     </div>
                     <div class="options">
                         <h3>RNDE</h3>
@@ -21,11 +22,11 @@
             </div>
         </xpath>
     </template>
-
-
-    <!-- load rnde theme css and js -->
-    <template id="website.theme_rnde" name="RNDE" inherit_id="website.theme" active="True" customize_show="True">
-        <xpath expr="//link[@id='bootstrap_css']" position="after">
+    <!-- RNDE THEME AND CSS -->
+    <template id="website.theme_rnde" name="RNDE"
+              inherit_id="website.theme" active="True" customize_show="True">
+        <xpath expr="//link[@id='bootstrap_css']" position="replace">
+            <!-- JOES STUFF -->
             <!-- <link rel='stylesheet' href='/rnde_config/static/src/css/rnde_custom_fonts.css' t-ignore="true"/> -->
             <!--<link rel='stylesheet' href='/rnde_config/static/src/css/bootstrap_rnde/css/bootstrap.min.css' t-ignore="true"/> -->
             <!--<link rel='stylesheet' href='/rnde_config/static/src/css/bootstrap_rnde/css/bootstrap-theme.min.css' t-ignore="true"/> -->
@@ -33,14 +34,54 @@
             <!--<script type="text/javascript" src="/rnde_config/static/src/js/textreplace.js"/>-->
 
             <!-- BY MIKE -->
+            <link rel='stylesheet' href='/rnde_config/static/src/css/rnde_bootstrap/css/bootstrap.css' t-ignore="true"/>
+            <link rel='stylesheet' href='/rnde_config/static/src/css/rnde_bootstrap/css/bootstrap-theme.css' t-ignore="true"/>
             <link rel='stylesheet' href='/rnde_config/static/src/css/rnde_01_theme.css' t-ignore="true"/>
             <link rel='stylesheet' href='/rnde_config/static/src/css/rnde_01_theme_buttons.css' t-ignore="true"/>
             <link rel='stylesheet' href='/rnde_config/static/src/css/rnde_02_shop.css' t-ignore="true"/>
+            <link rel='stylesheet' href='/rnde_config/static/src/css/rnde_02_shop_categories.css' t-ignore="true"/>
             <link rel='stylesheet' href='/rnde_config/static/src/css/rnde_09_glyphicons.css' t-ignore="true"/>
-            <link rel='stylesheet' href='/rnde_config/static/src/css/rnde_99_responsive.css' t-ignore="true"/>
-
         </xpath>
     </template>
+
+
+    <!-- CHECKOUT-STEP-INDICATOR -->
+    <template id="rnde_wsd_checkout_pages_header" name="RNDE Checkout Steps Regular Buttons"
+              inherit_id="website_sale_donate.wsd_checkout_pages_header" active="True">
+        <!-- Do not Display the Buttons on the right as a navbar to avoid the -15px margin! -->
+        <xpath expr="//div[@class='checkout_steps_buttons nav navbar-right']" position="attributes">
+            <attribute name="class">checkout_steps_buttons</attribute>
+        </xpath>
+    </template>
+
+
+    <!-- PRODUCT PAGE - DONATION TEMPLATE -->
+    <template id="rnde_ppt_donate" name="PageDonateLayout: Larger Checkoutbox"
+              inherit_id="website_sale_donate.ppt_donate" active="True" customize_show="True">
+
+        <!-- More space for the checkout box and less distance between checkout and description -->
+        <xpath expr="//div[@class='col-sm-7 col-md-7 col-lg-6']" position="attributes">
+            <attribute name="class">col-md-6</attribute>
+        </xpath>
+        <xpath expr="//div[@id='wsd-checkout-box']" position="attributes">
+            <attribute name="class">col-md-6</attribute>
+        </xpath>
+
+    </template>
+
+
+    <!-- CHECKOUT PAGE -->
+    <template id="rnde_wsd_checkout" name="Checkout: Cart on Top"
+              inherit_id="website_sale_donate.wsd_checkout" active="True" customize_show="True">
+        <!-- Full width for the Shopping Cart and the Form -->
+        <xpath expr="//div[@id='wsd_checkout_page_right_column']" position="attributes">
+            <attribute name="class">col-md-12</attribute>
+        </xpath>
+        <xpath expr="//div[@id='wsd_checkout_page_left_column']" position="attributes">
+            <attribute name="class">col-md-12</attribute>
+        </xpath>
+    </template>
+
 
     </data>
 </openerp>

@@ -1,7 +1,16 @@
+/* ATTENTION: FIX HEIGHT CALCULATION OF THE IFRAME RESIZER
+              !!!THE TAGGED ELEMENT MUST BE A BLOCK ELEMENT OR IT WILL NEVER RELEASE ITS HEIGHT!!!
+              SO ALT LEAST THE TAGGED <main data-iframe-height="True"> element MUST BE A BLOCK ELEMENT!!!
+*/
+/* ATTENTION: Do not change the <footer> or <header> display css attribute or you may override the display: None of the widget domain template !!! */
+body #wrapwrap main {
+    display: block;
+}
+
 /* FOOTER */
 body #wrapwrap footer {
-    /* ATTENTION: The height can not be 100% anywhere or iframeresizer may just expand but never shrink the iframe!
-                  Therefore we reset the height of the footer to auto!
+    /* ATTENTION: The height should not be 100% for any many element or iframeresizer may just expand but never shrink the iframe!
+                  <footer> and <header> is normally not used for the iframeresizer height calculation but for savety reasons we i reset it here
     */
     height: auto;
 }

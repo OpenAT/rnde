@@ -9,6 +9,12 @@ body #website_sale_login_info {
 /* PRODUCT PAGE AND CHECKOUT BOX */
 /* ----------------------------- */
 
+/* Mitigate form on iframe integration at the NEW Website */
+.container.oe_website_sale {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* Center the Amount Title */
 body #product_detail .amount_title {
     text-align: center;

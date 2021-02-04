@@ -17,7 +17,111 @@
         <!-- ======================= -->
         <xpath expr="//div[@id='snippet_email_special']" position="after">
             <div id="combined_snippets_rnde" class="tab-pane fade">
+            <!-- media Icons extra SNIPPET BLOCK -->
+            <!-- =============== -->
+                <div>
+                    <!-- Icon and name -->
+                    <div class="oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img"
+                             src="/fso_website_email_rnde/static/src/icons/mediasnippeticon_snippet.png"/>
+                        <span class="oe_snippet_thumbnail_title">Social Media Snippet</span>
+                    </div>
+                    <div class="oe_snippet_body ckediting_enabled snippet_block snippet_block_text_intro dadi_sb_fg_normal dadi_sb_bg_normal rnde_snippet_block_padding_smallbox"
+                         id="mediaiconsspecialsnippet" contenteditable="false">
+                        <table cellpadding="0" cellspacing="0" class="centeringTable">
+                            <tbody>
+                                <tr>
+                                    <td align="center" valign="top">
+                                        <table border="0" cellpadding="0" cellspacing="0" class="flexibleContainer">
+                                            <tbody>
+                                                <tr>
+                                                    <td align="center" class="flexibleContainerCell" valign="top">
+                                                        <table border="0" cellpadding="0" cellspacing="0"
+                                                               class="nestedContainer">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td align="center" class="nestedContainerCell"
+                                                                        valign="top">
+                                                                        <table border="0" cellpadding="0"
+                                                                               cellspacing="0" class="contentTable">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td class="textContent ckediting_enabled"
+                                                                                        contenteditable="true">
+                                                                                        <h4 style="text-align: center;">
+                                                                                            <span style="color: #d20028;">
+                                                                                                Folgen Sie uns:
+                                                                                            </span>
+                                                                                        </h4>
+                                                                                    </td>
 
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td align="center" class="mediaicons imageContent ckediting_enabled"  style="display: block;">
+                                                                                        <a data-cke-saved-href="https://www.facebook.com/RoteNasen.Deutschland/"
+                                                                                           href="https://www.facebook.com/RoteNasen.Deutschland/"
+                                                                                           target="_blank" style="text-decoration: none;">
+                                                                                            <img data-cke-saved-src="https://spenden.rotenasen.de/website/image/ir.attachment/14978_0f6acbb/datas"
+                                                                                                 src="https://spenden.rotenasen.de/website/image/ir.attachment/14978_0f6acbb/datas"
+                                                                                                 width="43"
+                                                                                                 style="display: inline-block; border: 0px; outline: none; width: 100%; height: auto; max-width: 43px; margin-right: 4px;"/>
+                                                                                        </a>
+                                                                                        <a data-cke-saved-href="https://www.instagram.com/rotenasen.deutschland/"
+                                                                                           href="https://spenden.rotenasen.dehttps://www.instagram.com/rotenasen.deutschland/"
+                                                                                           target="_blank" style="text-decoration: none;">
+                                                                                            <img data-cke-saved-src="https://spenden.rotenasen.de/website/image/ir.attachment/14979_138b75c/datas"
+                                                                                                 src="https://spenden.rotenasen.de/website/image/ir.attachment/14979_138b75c/datas"
+                                                                                                 width="43"
+                                                                                                 style="display: inline-block;border: 0px; outline: none; width: 100%; height: auto; max-width: 43px; margin-right: 4px;"/>
+                                                                                        </a>
+                                                                                        <a data-cke-saved-href="https://www.youtube.com/user/RNDClowns"
+                                                                                           href="https://www.youtube.com/user/RNDClowns"
+                                                                                           target="_blank" style="text-decoration: none;">
+                                                                                            <img data-cke-saved-src="https://spenden.rotenasen.de/website/image/ir.attachment/14980_c0a780a/datas"
+                                                                                                 src="https://spenden.rotenasen.de/website/image/ir.attachment/14980_c0a780a/datas"
+                                                                                                 width="43"
+                                                                                                 style="display: inline-block; border: 0px; outline: none; width: 100%; height: auto; max-width: 43px; margin-right: 4px;"/>
+                                                                                        </a>
+                                                                                        <a data-cke-saved-href="https://www.linkedin.com/company/rote-nasen-deutschland-e-v"
+                                                                                           href="https://www.linkedin.com/company/rote-nasen-deutschland-e-v"
+                                                                                           target="_blank" style="text-decoration: none;">
+                                                                                            <img data-cke-saved-src="https://spenden.rotenasen.de/website/image/ir.attachment/14981_f090187/datas"
+                                                                                                 src="https://spenden.rotenasen.de/website/image/ir.attachment/14981_f090187/datas"
+                                                                                                 width="43"
+                                                                                                 style="display: inline-block; border: 0px; outline: none; width: 100%; height: auto; max-width: 43px; margin-right: 4px;"/>
+                                                                                        </a>
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td class="textContent ckediting_enabled">
+                                                                                        <p>
+                                                                                            <h2 style="text-align: center;">
+                                                                                                <span style="color: #364979;">
+                                                                                                    Wir freuen uns auf
+                                                                                                    Ihren
+                                                                                                    Besuch!
+                                                                                                </span>
+                                                                                            </h2>
+                                                                                        </p>
+                                                                                    </td>
+                                                                                </tr>
+
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
              <!-- HEADER SNIPPET BLOCK ALLG -->
                 <!-- =============== -->
                 <div>

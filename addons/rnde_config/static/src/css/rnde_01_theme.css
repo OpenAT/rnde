@@ -93,3 +93,28 @@ body .oe_blue {
     background-color: #35477a !important;
     color: white;
 }
+
+/* inline Layout special for RNDE */
+.ppt_inline_donation #wsd-checkout-box > div > div.panel-body.text-center > form > div > h4 > hr {
+    display: none;
+}
+.ppt_inline_donation #wsd-checkout-box > div > div.panel-body.text-center > form > div > h4 {
+    display: inline-flex;
+    flex-direction: column;
+}
+.ppt_inline_donation #add_to_cart {
+    display: inline-flex;
+    vertical-align: top;
+    float: right;
+}
+.ppt_inline_donation #description_sale > p.text-muted {
+    /*font-family: 'ButterflyBall';*/
+    font-weight: Bold;
+    color: #364979;
+    padding: 0;
+    margin: 0;
+    font-size: 36px;
+}
+.ppt_inline_donation .donation_button_group .donation_button {
+    border: 1px solid;
+}

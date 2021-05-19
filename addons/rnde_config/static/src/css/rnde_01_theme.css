@@ -23,7 +23,9 @@ p {
     color: #364979;
     -webkit-font-smoothing: antialiased;
 }
-
+.btn-default {
+    color: #364979;
+}
 /* FOOTER */
 body #wrapwrap footer {
     /* ATTENTION: The height should not be 100% for any many element or iframeresizer may just expand but never shrink the iframe!

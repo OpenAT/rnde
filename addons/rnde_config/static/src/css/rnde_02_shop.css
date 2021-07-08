@@ -159,7 +159,9 @@ div.checkout_steps_buttons {
     color: #3d649e;
 }
 
-
+.wsd_button_back_to_page {
+    display: none;
+}
 /* ---------------- */
 /* ACQUIRER BUTTONS */
 /* ---------------- */

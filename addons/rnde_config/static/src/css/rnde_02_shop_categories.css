@@ -35,7 +35,7 @@
     width: auto;
     max-width: initial;
 }
-body[data-rootcatid="13"] #products_grid .oe_product section {
+body[data-rootcatid="4"] #products_grid .oe_product section {
     display: flex;
     flex-direction: column;
     height:100px;
@@ -57,6 +57,34 @@ body[data-rootcatid="4"] #products_grid .oe_product section {
     justify-content: normal;
 
 }
+
+/* special design for additional add to cart button within shop grid view */
+.oe_product_cart .quick_add_to_cart {
+    position: absolute;
+    bottom: 10px;
+}
+.oe_product_cart .quick_add_to_cart .a-submit a {
+    width: 100%
+}
+.oe_product_cart .quick_add_to_cart .a-submit.fa-shopping-cart:before {
+    padding-right:10px;
+}
+/* reverse Shop Grid and Cart, move cart under shop grid */
+body[data-rootcatid="2"] #wrap > div.container.oe_website_sale > div.row {
+    display: flex;
+    flex-direction: column-reverse;
+}
+/* reverse Shop Grid and Cart, move cart under shop grid */
+body[data-rootcatid="3"] #wrap > div.container.oe_website_sale > div.row {
+    display: flex;
+    flex-direction: column-reverse;
+}
+/* reverse Shop Grid and Cart, move cart under shop grid */
+body[data-rootcatid="4"] #wrap > div.container.oe_website_sale > div.row {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
 /* Product kacheln */
 body[data-rootcatid="4"] .quick_add_to_cart .btn.btn-default.btn-xs.fa.fa-shopping-cart.a-submit {
     font-size: 1.4rem;

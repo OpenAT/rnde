@@ -144,12 +144,12 @@ body[data-rootcatid="4"] .oe_product .product_price {
         height: 500px !important;
     }
 }
-/*@media (max-width: 390px) {
+@media (max-width: 360px) {
     body[data-rootcatid="4"] #products_grid .oe_product {
-        width: 300px !important;
+        width: 310px !important;
         height: 500px !important;
     }
-}*/
+}
 @media (max-width: 280px) {
     body[data-rootcatid="4"] #products_grid .oe_product {
         width: 220px !important;

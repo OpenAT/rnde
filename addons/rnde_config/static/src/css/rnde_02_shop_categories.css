@@ -22,6 +22,7 @@
 }
 #products_grid .oe_product section h5 {
     font-size: 20px;
+    text-align: center;
 }
 #products_grid .oe_product section a {
     color: white;
@@ -49,6 +50,10 @@ body[data-rootcatid="4"] #products_grid .oe_product section > div.text-info.oe_s
 body[data-rootcatid="4"] #products_grid .oe_product section :nth-child(4) { order: 3; }
 body[data-rootcatid="4"] #products_grid .oe_product section > div.quick_add_to_cart { order: 4; }
 
+body[data-rootcatid="4"] .oe_website_sale .products_pager .pagination > div.input-group {
+    display: none;
+
+}
 body[data-rootcatid="4"] #products_grid .oe_product section {
     font-size: 20px;
     font-weight: 500;
@@ -122,12 +127,37 @@ body[data-rootcatid="4"] .oe_product .product_price {
     }
 
     body[data-rootcatid="4"] #products_grid .oe_product {
-        width: 340px;
-        height: 500px;
+        width: 340px !important;
+        height: 500px !important;
     }
+    #products_grid > section {
 
+    }
     body[data-rootcatid="4"] #products_grid .oe_product section {
-        height: 160px;
+        height: 160px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    body[data-rootcatid="4"] #products_grid .oe_product {
+        width: 340px !important;
+        height: 500px !important;
+    }
+}
+/*@media (max-width: 390px) {
+    body[data-rootcatid="4"] #products_grid .oe_product {
+        width: 300px !important;
+        height: 500px !important;
+    }
+}*/
+@media (max-width: 280px) {
+    body[data-rootcatid="4"] #products_grid .oe_product {
+        width: 220px !important;
+        height: 380px !important;
+    }
+    body[data-rootcatid="4"] #products_grid .oe_product img {
+        width: 220px !important;
+        height: auto !important;
     }
 }
 
@@ -135,6 +165,7 @@ body[data-rootcatid="4"] .oe_product .product_price {
 body[data-rootcatid="4"] #wrap > div.container.oe_website_sale > div.row {
     display: flex;
     flex-direction: column-reverse;
+    margin: auto;
 }
 body[data-rootcatid="4"] .text-left.small_cart_buttons {
     display: none;
@@ -156,6 +187,12 @@ body .col-md-12 .oe-height-2 {
 @media (min-width: 992px) {
     body .col-md-12 .oe-height-2 {
         height: 380px;
+    }
+}
+@media (max-width: 768px) {
+    #products_grid .oe_product {
+        width: 220px !important;
+        height: 380px !important;
     }
 }
 /* ab 1200px */

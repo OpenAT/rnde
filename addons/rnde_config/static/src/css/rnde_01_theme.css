@@ -34,6 +34,26 @@ body #wrapwrap footer {
     height: auto;
 }
 
+/* Modal Box Behavior When alt Tags image Modul is installed, save button moves out of screen */
+.modal-dialog.select-media .modal-body {
+    max-height: calc(100vh - 210px);
+    overflow-y: auto;
+}
+/* IFRAME MODAL BOX BEHAVIOR BEGIN */
+
+#wsd_checkout_form .form-group {
+        position: relative !important;
+}
+.modal-open .modal {
+        overflow: visible !important;
+}
+.modal {
+    position: absolute !important;
+}
+
+#oe_main_menu_navbar div.modal.in > div.modal-dialog > div.modal-content {
+    position: relative;
+}
 
 /* ------------------- */
 /* BOOTSTRAP MODAL BOX */

@@ -33,6 +33,10 @@ body #wrapwrap footer {
     */
     height: auto;
 }
+/* für FSO Forms zusätzlich den Stern bei Pflichtfeldern */
+#fso_form label.control-label.mandatory.text-danger:after {
+    content: " *";
+}
 
 /* Modal Box Behavior When alt Tags image Modul is installed, save button moves out of screen */
 .modal-dialog.select-media .modal-body {

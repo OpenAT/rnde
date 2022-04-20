@@ -61,34 +61,46 @@
                                                                                         <a data-cke-saved-href="https://www.facebook.com/RoteNasen.Deutschland/"
                                                                                            href="https://www.facebook.com/RoteNasen.Deutschland/"
                                                                                            target="_blank" style="text-decoration: none;">
-                                                                                            <img data-cke-saved-src="https://spenden.rotenasen.de/website/image/ir.attachment/14978_0f6acbb/datas"
-                                                                                                 src="https://spenden.rotenasen.de/website/image/ir.attachment/14978_0f6acbb/datas"
+                                                                                            <img src="/fso_website_email_rnde/static/src/icons/facebook.jpeg"
                                                                                                  width="43"
-                                                                                                 style="display: inline-block; border: 0px; outline: none; width: 100%; height: auto; max-width: 43px; margin-right: 4px;"/>
+                                                                                                 vspace="10"
+                                                                                                 hspace="10"
+                                                                                                 alt="Facebook Icon"
+                                                                                                 align="center"
+                                                                                                 style="display: inline-block; border: 0px; outline: none; width:43px; height:43px; max-width:43px; margin-right:4px;"/>
                                                                                         </a>
                                                                                         <a data-cke-saved-href="https://www.instagram.com/rotenasen.deutschland/"
                                                                                            href="https://spenden.rotenasen.dehttps://www.instagram.com/rotenasen.deutschland/"
                                                                                            target="_blank" style="text-decoration: none;">
-                                                                                            <img data-cke-saved-src="https://spenden.rotenasen.de/website/image/ir.attachment/14979_138b75c/datas"
-                                                                                                 src="https://spenden.rotenasen.de/website/image/ir.attachment/14979_138b75c/datas"
+                                                                                            <img src="/fso_website_email_rnde/static/src/icons/instagram.jpeg"
                                                                                                  width="43"
-                                                                                                 style="display: inline-block;border: 0px; outline: none; width: 100%; height: auto; max-width: 43px; margin-right: 4px;"/>
+                                                                                                 vspace="10"
+                                                                                                 hspace="10"
+                                                                                                 align="center"
+                                                                                                 alt="Instagram Icon"
+                                                                                                 style="display: inline-block;border: 0px; outline: none; width:43px; height:43px; max-width: 43px; margin-right: 4px;"/>
                                                                                         </a>
                                                                                         <a data-cke-saved-href="https://www.youtube.com/user/RNDClowns"
                                                                                            href="https://www.youtube.com/user/RNDClowns"
                                                                                            target="_blank" style="text-decoration: none;">
-                                                                                            <img data-cke-saved-src="https://spenden.rotenasen.de/website/image/ir.attachment/14980_c0a780a/datas"
-                                                                                                 src="https://spenden.rotenasen.de/website/image/ir.attachment/14980_c0a780a/datas"
+                                                                                            <img src="/fso_website_email_rnde/static/src/icons/youtube.jpeg"
                                                                                                  width="43"
-                                                                                                 style="display: inline-block; border: 0px; outline: none; width: 100%; height: auto; max-width: 43px; margin-right: 4px;"/>
+                                                                                                 vspace="10"
+                                                                                                 hspace="10"
+                                                                                                 align="center"
+                                                                                                 alt="Youtube Icon"
+                                                                                                 style="display: inline-block; border: 0px; outline: none; width:43px; height:43px; max-width: 43px; margin-right: 4px;"/>
                                                                                         </a>
                                                                                         <a data-cke-saved-href="https://www.linkedin.com/company/rote-nasen-deutschland-e-v"
                                                                                            href="https://www.linkedin.com/company/rote-nasen-deutschland-e-v"
                                                                                            target="_blank" style="text-decoration: none;">
-                                                                                            <img data-cke-saved-src="https://spenden.rotenasen.de/website/image/ir.attachment/14981_f090187/datas"
-                                                                                                 src="https://spenden.rotenasen.de/website/image/ir.attachment/14981_f090187/datas"
+                                                                                            <img src="/fso_website_email_rnde/static/src/icons/linkedin.jpeg"
                                                                                                  width="43"
-                                                                                                 style="display: inline-block; border: 0px; outline: none; width: 100%; height: auto; max-width: 43px; margin-right: 4px;"/>
+                                                                                                 vspace="10"
+                                                                                                 hspace="10"
+                                                                                                 align="center"
+                                                                                                 alt="LinkedIn Icon"
+                                                                                                 style="display: inline-block; border: 0px; outline: none; width:43px; height:43px; max-width: 43px; margin-right: 4px;"/>
                                                                                         </a>
                                                                                     </td>
                                                                                 </tr>
@@ -152,7 +164,15 @@
                                                                                             <tbody>
                                                                                                 <tr>
                                                                                                     <td align="left" class="imageContent ckediting_enabled" valign="top">
-                                                                                                        <a href="https://www.rotenasen.de"><img class="flexibleImage" src="/fso_website_email_rnde/static/src/img/logo_1.jpeg"></img></a>
+                                                                                                        <a href="https://www.rotenasen.de">
+                                                                                                            <img class="flexibleImage" src="/fso_website_email_rnde/static/src/img/logo_1.jpeg"
+                                                                                                                width="200"
+                                                                                                                vspace="10"
+                                                                                                                hspace="10"
+                                                                                                                align="center"
+                                                                                                                alt="Rotenasen Logo"
+                                                                                                                style="display: inline-block; border: 0px; outline: none; width:200px; max-width: 200px;">
+                                                                                                            </img></a>
                                                                                                     </td>
                                                                                                 </tr>
                                                                                             </tbody>
@@ -228,7 +248,11 @@
                                                                                                 <tr>
                                                                                                     <td align="left" class="imageContent ckediting_enabled" valign="top">
                                                                                                         <a href="https://www.rotenasen.de">
-                                                                                                            <img class="flexibleImage" src="https://rnde.datadialog.net/fso_website_email_rnde/static/src/img/logo_1.jpeg"/>
+                                                                                                            <img class="flexibleImage" src="https://rnde.datadialog.net/fso_website_email_rnde/static/src/img/logo_1.jpeg"
+                                                                                                                width="270"
+                                                                                                                align="center"
+                                                                                                                alt="Rotenasen Logo"
+                                                                                                                style="display: inline-block; border: 0px; outline: none; width:270px; max-width:270px;"/>
                                                                                                         </a>
                                                                                                     </td>
                                                                                                 </tr>
@@ -309,9 +333,9 @@
                                                                                                 </span>
                                                                                             </h4>
                                                                                             <p style="text-align: center;">
-                                                                                                <a href="https://www.facebook.com/RoteNasen.Deutschland/" target="_blank"><img src="/fso_website_email_rnde/static/src/icons/facebook.png" alt="Facebook" title="Facebook" height="67px" width="67px"/></a>
-                                                                                                <a href="https://www.instagram.com/rotenasen.deutschland/" target="_blank"><img src="/fso_website_email_rnde/static/src/icons/instagram.png" alt="Instagram" title="Instagram" height="67px" width="67px"/></a>
-                                                                                                <a href="https://www.youtube.com/user/RNDClowns" target="_blank"><img src="/fso_website_email_rnde/static/src/icons/youtube.png" alt="Youtube" title="Youtube" height="67px" width="67px"/></a>
+                                                                                                <a href="https://www.facebook.com/RoteNasen.Deutschland/" target="_blank"><img src="/fso_website_email_rnde/static/src/icons/facebook.png" alt="Facebook Icon" title="Facebook" align="center" height="43" width="43" vspace="10" hspace="10" style="display: inline-block; border: 0px; outline: none; width:43px; height:43px; max-width:43px; margin-right:4px;"/></a>
+                                                                                                <a href="https://www.instagram.com/rotenasen.deutschland/" target="_blank"><img src="/fso_website_email_rnde/static/src/icons/instagram.png" alt="Instagram Icon" title="Instagram" align="center" height="43" width="43" vspace="10" hspace="10" style="display: inline-block; border: 0px; outline: none; width:43px; height:43px; max-width:43px; margin-right:4px;"/></a>
+                                                                                                <a href="https://www.youtube.com/user/RNDClowns" target="_blank"><img src="/fso_website_email_rnde/static/src/icons/youtube.png" alt="Youtube" title="Youtube Icon" height="43" align="center" width="43" vspace="10" hspace="10" style="display: inline-block; border: 0px; outline: none; width:43px; height:43px; max-width:43px; margin-right:4px;"/></a>
                                                                                             </p>
                                                                                             <h2 style="text-align: center;">
                                                                                                 <span style="color: #364979;">
@@ -475,8 +499,15 @@
                                                                                                         <td align="left"
                                                                                                             class="imageContent ckediting_enabled"
                                                                                                             valign="bottom">
-                                                                                                            <a href="https://www.rotenasen.de"><img class="flexibleImage"
-                                                                                                                                                    src="/fso_website_email_rnde/static/src/img/logo_1.jpeg"></img></a>
+                                                                                                            <a href="https://www.rotenasen.de">
+                                                                                                                <img class="flexibleImage"
+                                                                                                                     src="/fso_website_email_rnde/static/src/img/logo_1.jpeg"
+                                                                                                                     width="200"
+                                                                                                                     vspace="10"
+                                                                                                                     hspace="10"
+                                                                                                                     align="center"
+                                                                                                                     alt="Rotenasen Logo"
+                                                                                                                     style="display: inline-block; border: 0px; outline: none; width:200px; max-width: 200px;"/></a>
                                                                                                         </td>
                                                                                                     </tr>
                                                                                                 </tbody>
@@ -601,7 +632,7 @@
                             </table>
                         </div>
 
-                        <div class="ckediting_disabled snippet_block snippet_block_text_threecol">
+                        <div class="ckediting_disabled snippet_block snippet_block_text_threecol snippetfooter_memberof">
                             <table cellpadding="0" cellspacing="0" class="centeringTable">
                                 <tbody>
                                     <tr>
@@ -633,7 +664,12 @@
                                                                                                             valign="top">
                                                                                                             <img class="flexibleImage"
                                                                                                                  src="/fso_website_email_rnde/static/src/img/dpsv_logo.png"
-                                                                                                                 style="text-align:center;"></img>
+                                                                                                                 width="180"
+                                                                                                                 vspace="10"
+                                                                                                                 hspace="10"
+                                                                                                                 align="center"
+                                                                                                                 alt="dpsv Logo"
+                                                                                                                 style="display: inline-block; border: 0px; outline: none; width:180px; height:55px; max-width: 180px;"></img>
                                                                                                         </td>
                                                                                                     </tr>
                                                                                                 </tbody>
@@ -651,7 +687,12 @@
                                                                                                             valign="top">
                                                                                                             <img class="flexibleImage"
                                                                                                                  src="/fso_website_email_rnde/static/src/img/itz_logo.png"
-                                                                                                                 style="text-align:center;"></img>
+                                                                                                                 width="180"
+                                                                                                                 vspace="10"
+                                                                                                                 hspace="10"
+                                                                                                                 align="center"
+                                                                                                                 alt="itz Logo"
+                                                                                                                 style="display: inline-block; border: 0px; outline: none; width:180px; height:55px; max-width: 180px;"></img>
                                                                                                         </td>
                                                                                                     </tr>
                                                                                                 </tbody>
@@ -669,7 +710,12 @@
                                                                                                             valign="top">
                                                                                                             <img class="flexibleImage"
                                                                                                                  src="/fso_website_email_rnde/static/src/img/dfrv_logo_1.jpeg"
-                                                                                                                 style="text-align:center;"></img>
+                                                                                                                 width="180"
+                                                                                                                 vspace="10"
+                                                                                                                 hspace="10"
+                                                                                                                 align="center"
+                                                                                                                 alt="dfrv Logo"
+                                                                                                                 style="display: inline-block; border: 0px; outline: none; width:180px; height:55px; max-width: 180px;"></img>
                                                                                                         </td>
                                                                                                     </tr>
                                                                                                 </tbody>

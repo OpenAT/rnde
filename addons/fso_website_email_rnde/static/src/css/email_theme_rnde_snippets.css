@@ -44,6 +44,18 @@
 .snippet_block_text_threecol .flexibleContainer33 .flexibleImage {
     width: 190px;
 }
+.snippetfooter_memberof.snippet_block_text_threecol .flexibleContainer33,
+.snippetfooter_memberof.snippet_block_text_threecol .flexibleContainer33 .flexibleImage {
+    width: 180px;
+}
+.snippetfooter_memberof.snippet_block_text_threecol .flexibleContainer33middle {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.snippetfooter_memberof.snippet_block_text_threecol .flexibleContainer33middle {
+    margin-left: 0px;
+    margin-right: 0px;
+}
 
 /* .snippet_block_banner */
 .snippet_block_banner .flexibleImage,

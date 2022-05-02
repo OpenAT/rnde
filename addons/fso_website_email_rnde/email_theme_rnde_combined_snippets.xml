@@ -70,7 +70,7 @@
                                                                                                  style="display: inline-block; border: 0px; outline: none; width:43px; height:43px; max-width:43px; margin-right:4px;"/>
                                                                                         </a>
                                                                                         <a data-cke-saved-href="https://www.instagram.com/rotenasen.deutschland/"
-                                                                                           href="https://spenden.rotenasen.dehttps://www.instagram.com/rotenasen.deutschland/"
+                                                                                           href="https://www.instagram.com/rotenasen.deutschland/"
                                                                                            target="_blank" style="text-decoration: none;">
                                                                                             <img src="/fso_website_email_rnde/static/src/icons/instagram.jpeg"
                                                                                                  width="43"
@@ -308,7 +308,7 @@
 
                     <div class="oe_snippet_body ckediting_disabled rnde_bin">
 
-                        <div id="combindedsnippetfooter" class="ckediting_disabled snippet_block snippet_block_text_intro">
+                        <div id="combindedsnippetfooter" class="ckediting_enabled snippet_block snippet_block_text_intro dadi_sb_fg_normal dadi_sb_bg_normal rnde_snippet_block_padding_smallbox">
                             <table cellpadding="0" cellspacing="0" class="centeringTable">
                                 <tbody>
                                     <tr>
@@ -317,7 +317,8 @@
                                                 <tbody>
                                                     <tr>
                                                         <td align="center" class="flexibleContainerCell" valign="top">
-                                                            <table border="0" cellpadding="0" cellspacing="0" class="nestedContainer">
+                                                            <table border="0" cellpadding="0" cellspacing="0"
+                                                                   class="nestedContainer">
                                                                 <tbody>
                                                                     <tr>
                                                                         <td align="center" class="nestedContainerCell"
@@ -326,22 +327,86 @@
                                                                                    cellspacing="0" class="contentTable">
                                                                                 <tbody>
                                                                                     <tr>
-                                                                                        <td class="textContent ckediting_enabled">
+                                                                                        <td class="textContent ckediting_enabled"
+                                                                                            contenteditable="true">
                                                                                             <h4 style="text-align: center;">
                                                                                                 <span style="color: #d20028;">
                                                                                                     Folgen Sie uns:
                                                                                                 </span>
                                                                                             </h4>
-                                                                                            <p style="text-align: center;">
-                                                                                                <a href="https://www.facebook.com/RoteNasen.Deutschland/" target="_blank"><img src="/fso_website_email_rnde/static/src/icons/facebook.png" alt="Facebook Icon" title="Facebook" align="center" height="43" width="43" vspace="10" hspace="10" style="display: inline-block; border: 0px; outline: none; width:43px; height:43px; max-width:43px; margin-right:4px;"/></a>
-                                                                                                <a href="https://www.instagram.com/rotenasen.deutschland/" target="_blank"><img src="/fso_website_email_rnde/static/src/icons/instagram.png" alt="Instagram Icon" title="Instagram" align="center" height="43" width="43" vspace="10" hspace="10" style="display: inline-block; border: 0px; outline: none; width:43px; height:43px; max-width:43px; margin-right:4px;"/></a>
-                                                                                                <a href="https://www.youtube.com/user/RNDClowns" target="_blank"><img src="/fso_website_email_rnde/static/src/icons/youtube.png" alt="Youtube" title="Youtube Icon" height="43" align="center" width="43" vspace="10" hspace="10" style="display: inline-block; border: 0px; outline: none; width:43px; height:43px; max-width:43px; margin-right:4px;"/></a>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td align="center"
+                                                                                            class="mediaicons imageContent ckediting_enabled"
+                                                                                            style="display: block;">
+                                                                                            <a data-cke-saved-href="https://www.facebook.com/RoteNasen.Deutschland/"
+                                                                                               href="https://www.facebook.com/RoteNasen.Deutschland/"
+                                                                                               target="_blank"
+                                                                                               style="text-decoration: none;"><img
+                                                                                                    data-cke-saved-src="/fso_website_email_rnde/static/src/icons/facebook.jpeg"
+                                                                                                    src="/fso_website_email_rnde/static/src/icons/facebook.jpeg"
+                                                                                                    width="43"
+                                                                                                    vspace="10"
+                                                                                                    hspace="10"
+                                                                                                    alt="Facebook Icon"
+                                                                                                    align="center"
+                                                                                                    style="display: inline-block; border: 0px; outline: none; width:43px; height:43px; max-width:43px; margin-right:4px;"/>
+                                                                                            </a>
+                                                                                            <a data-cke-saved-href="https://www.instagram.com/rotenasen.deutschland/"
+                                                                                               href="https://www.instagram.com/rotenasen.deutschland/"
+                                                                                               target="_blank"
+                                                                                               style="text-decoration: none;">
+                                                                                                <img data-cke-saved-src="/fso_website_email_rnde/static/src/icons/instagram.jpeg"
+                                                                                                     src="/fso_website_email_rnde/static/src/icons/instagram.jpeg"
+                                                                                                     width="43"
+                                                                                                     vspace="10"
+                                                                                                     hspace="10"
+                                                                                                     align="center"
+                                                                                                     alt="Instagram Icon"
+                                                                                                     style="display: inline-block;border: 0px; outline: none; width:43px; height:43px; max-width: 43px; margin-right: 4px;"/>
+                                                                                            </a>
+                                                                                            <a data-cke-saved-href="https://www.youtube.com/user/RNDClowns"
+                                                                                               href="https://www.youtube.com/user/RNDClowns"
+                                                                                               target="_blank"
+                                                                                               style="text-decoration: none;">
+                                                                                                <img data-cke-saved-src="/fso_website_email_rnde/static/src/icons/youtube.jpeg"
+                                                                                                     src="/fso_website_email_rnde/static/src/icons/youtube.jpeg"
+                                                                                                     width="43"
+                                                                                                     vspace="10"
+                                                                                                     hspace="10"
+                                                                                                     align="center"
+                                                                                                     alt="Youtube Icon"
+                                                                                                     style="display: inline-block; border: 0px; outline: none; width:43px; height:43px; max-width: 43px; margin-right: 4px;"/>
+                                                                                            </a>
+                                                                                            <a data-cke-saved-href="https://www.linkedin.com/company/rote-nasen-deutschland-e-v"
+                                                                                               href="https://www.linkedin.com/company/rote-nasen-deutschland-e-v"
+                                                                                               target="_blank"
+                                                                                               style="text-decoration: none;">
+                                                                                                <img data-cke-saved-src="/fso_website_email_rnde/static/src/icons/linkedin.jpeg"
+                                                                                                     src="/fso_website_email_rnde/static/src/icons/linkedin.jpeg"
+                                                                                                     width="43"
+                                                                                                     vspace="10"
+                                                                                                     hspace="10"
+                                                                                                     align="center"
+                                                                                                     alt="LinkedIn Icon"
+                                                                                                     style="display: inline-block; border: 0px; outline: none; width:43px; height:43px; max-width: 43px; margin-right: 4px;"/>
+                                                                                            </a>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="textContent ckediting_enabled">
+                                                                                            <p>
+                                                                                                <br/>
                                                                                             </p>
                                                                                             <h2 style="text-align: center;">
                                                                                                 <span style="color: #364979;">
                                                                                                     Wir freuen uns auf Ihren Besuch!
                                                                                                 </span>
                                                                                             </h2>
+                                                                                            <p>
+                                                                                                <br/>
+                                                                                            </p>
                                                                                         </td>
                                                                                     </tr>
                                                                                 </tbody>
@@ -358,6 +423,8 @@
                                     </tr>
                                 </tbody>
                             </table>
+
+
                         </div>
 
 
@@ -454,36 +521,26 @@
                                                                                                         <td class="textContent ckediting_enabled"
                                                                                                             valign="top">
                                                                                                             <h3>
-                                                                                                                ROTE NASEN
-                                                                                                                Deutschland
-                                                                                                                e.V.
+                                                                                                                ROTE NASEN Deutschland e.V.
                                                                                                             </h3>
 
                                                                                                             <p>
-                                                                                                                Großkopfstraße
-                                                                                                                6-7
+                                                                                                                Großkopfstraße 6-7
                                                                                                                 <br/>
                                                                                                                 13403 Berlin
                                                                                                                 <br/>
                                                                                                                 office@rotenasen.de
                                                                                                                 <br/>
-                                                                                                                Geschäftsführung:
-                                                                                                                Kirsten
-                                                                                                                Kaup, Claus
-                                                                                                                Gieschen
+                                                                                                                Geschäftsführung: Mehran Moazami-Goudarzi
                                                                                                                 <br/>
-                                                                                                                Steuer-Nr.:
-                                                                                                                27/676/52410
+                                                                                                                Steuer-Nr.: 27/676/52410
                                                                                                                 <br/>
                                                                                                                 <p></p>
-                                                                                                                <a style="font-weight: Bold; text-decoration: none;">Unser
-                                                                                                                Spendenkonto:</a>
+                                                                                                                <a style="font-weight: Bold; text-decoration: none;">Unser Spendenkonto:</a>
                                                                                                                 <br/>
-                                                                                                                IBAN:
-                                                                                                                DE65100205000003319200
+                                                                                                                IBAN: DE65100205000003319200
                                                                                                                 <br/>
-                                                                                                                BIC:
-                                                                                                                BFSWDE33BER
+                                                                                                                BIC: BFSWDE33BER
                                                                                                             </p>
                                                                                                         </td>
                                                                                                     </tr>

@@ -139,6 +139,24 @@ body .oe_blue {
     margin: 0;
     font-size: 36px;
 }
-.ppt_inline_donation .donation_button_group .donation_button {
+.ppt_inline_donation .donation_button_group .donation_button,
+.ppt_opc-checkout .donation_button_group .donation_button {
     border: 1px solid;
 }
+@media (max-width: 400px) {
+    .ppt_opc-checkout .donation_button_group .donation_button > section:nth-child(1) {
+        width: 150px;
+        float:left;
+        margin:auto;
+    }
+    .ppt_opc-checkout .donation_button_group .donation_button > section:nth-child(2) {
+        width: 170px;
+        float:left;
+        margin:auto;
+    }
+    .ppt_inline_donation .donation_button_group .donation_button,
+    .ppt_opc-checkout .donation_button_group .donation_button {
+        display: inline-flex;
+    }
+}
+

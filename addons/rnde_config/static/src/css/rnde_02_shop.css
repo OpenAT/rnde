@@ -170,3 +170,14 @@ div.checkout_steps_buttons {
 /*[data-name='frst-submit-button'] {*/
 /*    max-width: 100%;*/
 /*}*/
+
+/* special Focus inside price_donate Field change default behavior from bootstrap base since launch */
+#price_donate.btn-primary,
+#price_donate.btn-primary:focus,
+#price_donate.btn-primary:active,
+#price_donate.btn-primary:hover {
+    color: #364979;
+    background-color: #fff;
+    border-color: #364979;
+}
+

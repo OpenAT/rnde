@@ -17,18 +17,19 @@
 ##############################################################################
 
 {
-    'name': 'fso_partner_donation_subject',
-    'summary': """Adds the donation_subject field to partners.""",
+    'name': 'fso_mail_message_subtypes_donation_subject',
+    'summary': """Adds a donation_subject mail sub type.""",
     'description': """
-Adds the donation_subject field to partners.
+Adds the donation_subject mail sub type.
     """,
     'author': 'DataDialog',
     'version': '0.1',
     'website': 'https://www.datadialog.net',
     'installable': True,
     'depends': [
-        'fso_mail_message_subtypes_donation_subject',
+        'fso_mail_message_subtypes',
     ],
     'data': [
+        'data/mail_message_subtypes.xml',
     ],
 }

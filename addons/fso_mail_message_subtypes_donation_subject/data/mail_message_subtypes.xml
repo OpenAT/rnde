@@ -2,11 +2,11 @@
 <openerp>
     <data>
 
-        <record id="fson_name_plaque" model="mail.message.subtype">
+        <record id="fson_donation_subject" model="mail.message.subtype">
             <field name="name">FS-Online Donation Subject</field>
             <field name="res_model" eval="False"/>
             <field name="default" eval="False"/>
-            <field name="xml_id">fso_partner_donation_subject.fson_donation_subject</field>
+            <field name="xml_id">fso_mail_message_subtypes_donation_subject.fson_donation_subject</field>
         </record>
 
     </data>

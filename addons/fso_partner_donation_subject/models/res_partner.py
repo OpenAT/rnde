@@ -32,7 +32,7 @@ class ResPartnerDonationSubject(models.Model):
             partner.sudo().with_context(mail_post_autofollow=False).message_post(
                 body=message_body,
                 type='comment',
-                subtype='fso_partner_donation_subject.fson_donation_subject',
+                subtype='fso_mail_message_subtypes_donation_subject.fson_donation_subject',
                 content_subtype="plaintext")
 
     @api.model

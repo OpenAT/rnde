@@ -143,6 +143,47 @@ body .oe_blue {
 .ppt_opc-checkout .donation_button_group .donation_button {
     border: 1px solid;
 }
+
+#wsd_checkout_form .donation_button_group.arbitrary_price_form_group.kachel > div {
+    border: 1px solid rgb(212, 18, 30);
+    height: 494.188px;
+    width: 100%;
+}
+
+#wsd_checkout_form .donation_button_group.arbitrary_price_form_group.kachel > div input {
+    font-size: 42px;
+    font-weight: bold;
+    color: rgb(212, 18, 30);
+    height: 140px;
+    text-align: center;
+    border: 0px solid transparent;
+    margin-bottom: 80px;
+}
+
+#wsd_checkout_form .donation_button_group.arbitrary_price_form_group.kachel .arbitrary_price_currency {
+    display: none;
+}
+
+#wsd_checkout_form .donation_button_group.arbitrary_price_form_group.kachel .input-group.arbitrary_price_input_group::after {
+    background-image: url('/rnde_config/static/src/img/pencil.png');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 98px;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    content:"";
+}
+
+@media (max-width: 737px) {
+    #wsd_checkout_form .donation_button_group.arbitrary_price_form_group > div.kachel {
+        height: 673.391px;
+    }
+    #wsd_checkout_form .donation_button_group.arbitrary_price_form_group > div.kachel .input-group.arbitrary_price_input_group::after {
+        height: 70%;
+    }
+}
+
 @media (max-width: 400px) {
     .ppt_opc-checkout .donation_button_group .donation_button > section:nth-child(1) {
         width: 150px;

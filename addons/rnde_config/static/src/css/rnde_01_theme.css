@@ -146,7 +146,7 @@ body .oe_blue {
 
 #wsd_checkout_form .donation_button_group.arbitrary_price_form_group.kachel > div {
     border: 1px solid rgb(212, 18, 30);
-    height: 494.188px;
+    height: 405.7px;
     width: 100%;
 }
 
@@ -157,7 +157,7 @@ body .oe_blue {
     height: 140px;
     text-align: center;
     border: 0px solid transparent;
-    margin-bottom: 80px;
+    margin-bottom: 70px;
 }
 
 #wsd_checkout_form .donation_button_group.arbitrary_price_form_group.kachel .arbitrary_price_currency {

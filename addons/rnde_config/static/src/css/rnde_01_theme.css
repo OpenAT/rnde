@@ -150,10 +150,6 @@ body .oe_blue {
     width: 100%;
 }
 
-#wsd_checkout_form .donation_button_group.highlight > div {
-    outline: 10px solid rgba(212, 18, 30, 0.1);
-}
-
 #wsd_checkout_form .donation_button_group h1 {
     margin-bottom: 0px;
 }
@@ -206,5 +202,61 @@ body .oe_blue {
     .ppt_inline_donation .donation_button_group .donation_button,
     .ppt_opc-checkout .donation_button_group .donation_button {
         display: inline-flex;
+    }
+}
+
+/* New styles */
+
+#wsd_checkout_form .donation_button_group.highlight > div {
+    outline: 10px solid rgba(212, 18, 30, 0.1);
+}
+
+#wsd_checkout_form .donation_button_group #price_donate {
+    text-align: center;
+    background-color: transparent;
+    border: 0px solid transparent;
+    outline: 0px;
+    box-shadow: none;
+    font-size: 26px;
+    padding-left: 80px;
+}
+
+#wsd_checkout_form .donation_button_group .arbitrary_price_input_group .arbitrary_price_currency {
+    background-color: transparent;
+    border: 0px solid transparent;
+}
+
+#wsd_checkout_form .form-group.donation_button_group.arbitrary_price_form_group::before {
+    content: "Meine Spende";
+    font-size: 28px;
+}
+
+#wsd_checkout_form .form-group.donation_button_group.arbitrary_price_form_group .input-group::before {
+    content: "";
+    color: rgb(54, 73, 121);
+    font-size: 50px;
+    font-weight: normal;
+    font-family: "FontAwesome";
+    display: table-cell;
+    line-height: 18px;
+    vertical-align: top;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+#wsd_checkout_form .form-group.donation_button_group.arbitrary_price_form_group {
+    border: 1px solid rgb(212, 18, 30);
+    margin: 10px 15px;
+    padding: 10px 0px;
+}
+
+@media (max-width: 662px) {
+    #wsd_checkout_form .form-group.donation_button_group.arbitrary_price_form_group::before {
+        font-size: 6vmin;
+    }
+
+    #wsd_checkout_form .form-group.donation_button_group.arbitrary_price_form_group .input-group::before {
+        font-size: 32px;
     }
 }

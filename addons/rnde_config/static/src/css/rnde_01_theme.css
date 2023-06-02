@@ -150,6 +150,10 @@ body .oe_blue {
     width: 100%;
 }
 
+#wsd_checkout_form .donation_button_group.highlight > div {
+    outline: 10px solid rgba(212, 18, 30, 0.1);
+}
+
 #wsd_checkout_form .donation_button_group.arbitrary_price_form_group.kachel > div input {
     font-size: 42px;
     font-weight: bold;
@@ -200,4 +204,3 @@ body .oe_blue {
         display: inline-flex;
     }
 }
-

@@ -16,7 +16,7 @@ class ResPartnerDonationSubject(models.Model):
                                                    ('senioren', 'Senioren'),
                                                    ('gefluechtete', 'Geflüchtete'),
                                                    ('emergency_smile_suslandsprojekte', 'Emergency Smile/Auslandsprojekte')],
-                                        default='')
+                                        default='wo_hilfe_am_meisten_gebraucht_wird')
 
     def create_donation_subject_mail_message(self, partner, values):
         line = values.get('donation_subject', False)

@@ -243,6 +243,11 @@ body .oe_blue {
     position: absolute;
     top: 10px;
     left: 10px;
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    transform: scale(-1, 1);
 }
 
 #wsd_checkout_form .form-group.donation_button_group.arbitrary_price_form_group {

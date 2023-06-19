@@ -265,3 +265,7 @@ body .oe_blue {
         font-size: 32px;
     }
 }
+
+#fso_form label.text-danger {
+    color: #364979;
+}

@@ -181,3 +181,61 @@ div.checkout_steps_buttons {
     border-color: #364979;
 }
 
+/* Price suggestion and price donate custom styles 2024-03-05 */
+
+.arbitrary_price {
+    font-size: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.price_donate_suggested_outer {
+    margin: 0;
+    padding: 0;
+    display: block;
+    flex: auto;
+}
+
+.price_donate_suggested.btn {
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+    border: 0px solid transparent;
+    color: #777;
+    background-color: #E3E3E3;
+    border-radius: 0;
+    text-shadow: none;
+}
+
+.price_donate_suggested.btn:focus {
+    color: #fff;
+    background-color: #d20028;
+    outline: 0px solid transparent;
+}
+
+.price_donate_suggested_currency {
+    display: none !important;
+}
+
+.form-group.price_donate,
+.form-group.price_donate > .input-group {
+    width: 100%;
+}
+
+.form-group.price_donate .input-group-addon {
+    display: none;
+}
+
+.form-group.price_donate input {
+    color: #777;
+    background-color: #E3E3E3;
+    border: 0px solid transparent;
+    box-shadow: none;
+    flex: 100%;
+}
+
+.form-group.price_donate input:focus {
+    color: #fff;
+    background-color: #d20028;
+}

@@ -181,6 +181,55 @@ div.checkout_steps_buttons {
     border-color: #364979;
 }
 
+/* Payment interval custom styles 2024-03-05 */
+
+#payment_intervals {
+    color: #777 !important;
+}
+
+#payment_intervals input[type='radio'] {
+    accent-color: #d20028;
+}
+#payment_intervals .form-group::after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 55px;
+    background-size: contain;
+    background: center / contain no-repeat url('/rnde_config/static/src/img/arrow_recurring.png');
+    max-width: 100%;
+}
+
+#payment_intervals label:has(:not(input[data-payment-interval-external-id="website_sale_donate.once_only"]))::after {
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background: center / contain no-repeat url('/rnde_config/static/src/img/heart.png');
+}
+
+@media (max-width: 662px) {
+    #payment_intervals .form-group::after {
+        height: 25px;
+    }
+    #payment_intervals label:has(:not(input[data-payment-interval-external-id="website_sale_donate.once_only"]))::after {
+        width: 16px;
+        height: 16px;
+    }
+}
+
+#payment_intervals .radio {
+    vertical-align: bottom;
+}
+
+#payment_intervals::after {
+    content: "Regelmäßige Spenden helfen uns dauerhaft zu helfen.";
+    display: block;
+    margin: 8px;
+    font-weight: normal;
+    font-style: italic;
+}
+
 /* Price suggestion and price donate custom styles 2024-03-05 */
 
 .arbitrary_price {

@@ -109,4 +109,13 @@
         </xpath>
     </template>
 
+    <template id="confirmation_static_rnde" inherit_id="website_sale_donate.confirmation_static">
+        <xpath expr="//div[@class='payment_information']" position="replace">
+            <!--
+                Do not display payment information on cofnirmation_static,
+                information is in confirmation email anyway.
+            -->
+        </xpath>
+    </template>
+
 </data></openerp>

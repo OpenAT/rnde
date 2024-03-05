@@ -257,9 +257,12 @@ div.checkout_steps_buttons {
     text-shadow: none;
 }
 
-.price_donate_suggested.btn:focus {
+.price_donate_suggested_outer.active .price_donate_suggested.btn {
     color: #fff;
     background-color: #d20028;
+}
+
+.price_donate_suggested.btn:focus {
     outline: 0px solid transparent;
 }
 
@@ -284,7 +287,7 @@ div.checkout_steps_buttons {
     flex: 100%;
 }
 
-.form-group.price_donate input:focus {
+.form-group.price_donate.active input {
     color: #fff;
     background-color: #d20028;
 }

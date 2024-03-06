@@ -291,3 +291,13 @@ div.checkout_steps_buttons {
     color: #fff;
     background-color: #d20028;
 }
+
+/* Fix strange container behaviour... */
+
+.container {
+    max-width: 100%;
+}
+
+#wsd_checkout_form_inside_row > .col-md-12 {
+    float: unset;
+}

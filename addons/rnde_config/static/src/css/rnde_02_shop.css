@@ -226,6 +226,7 @@ div.checkout_steps_buttons {
     content: "Regelmäßige Spenden helfen uns dauerhaft zu helfen.";
     display: block;
     margin: 8px;
+    margin-bottom: 20px;
     font-weight: normal;
     font-style: italic;
 }
@@ -239,10 +240,18 @@ div.checkout_steps_buttons {
 }
 
 .price_donate_suggested_outer {
-    margin: 0;
+    margin-left: 2px;
+    margin-right: 2px;
     padding: 0;
     display: block;
     flex: auto;
+}
+
+.price_donate_suggested_outer:first-of-type {
+    margin-left: 0px;
+}
+.price_donate_suggested_outer:last-of-type {
+    margin-right: 0px;
 }
 
 .price_donate_suggested.btn {
@@ -267,7 +276,21 @@ div.checkout_steps_buttons {
 }
 
 .price_donate_suggested_currency {
-    display: none !important;
+    /* display: none !important; */
+    visibility: hidden;
+    text-align: center;
+}
+
+.price_donate_suggested_currency::after {
+    content: "€";
+    display: block;
+    visibility: visible;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.active .price_donate_suggested_currency::after {
+    color: white;
 }
 
 .form-group.price_donate,
@@ -275,7 +298,20 @@ div.checkout_steps_buttons {
     width: 100%;
 }
 
-.form-group.price_donate .input-group-addon {
+.form-group.price_donate .input-group-addon:first-of-type {
+    border: 0px solid transparent;
+    border-radius: 0px;
+    background-color: #E3E3E3;
+    min-width: auto;
+    padding: 4px;
+}
+
+.form-group.price_donate.active .input-group-addon:first-of-type {
+    background-color: #d20028;
+    color: white;
+}
+
+.form-group.price_donate .input-group-addon:last-of-type {
     display: none;
 }
 
@@ -300,4 +336,32 @@ div.checkout_steps_buttons {
 
 #wsd_checkout_form_inside_row > .col-md-12 {
     float: unset;
+}
+
+.payment_interval_info {
+    display: none !important;
+}
+
+/* Re-order payment interval and price fields */
+
+.js_product {
+    display: flex;
+    flex-direction: column;
+}
+
+#payment_intervals {
+    order: -1;
+}
+
+#payment_intervals hr {
+    display: none;
+}
+
+#wsd-checkout-box h1 {
+    margin-bottom: 10px;
+}
+
+.product_price.mt16 {
+    margin-top: 0 !important;
+    margin-bottom: 20px !important;
 }

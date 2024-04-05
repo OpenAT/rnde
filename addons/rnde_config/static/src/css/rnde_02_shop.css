@@ -324,8 +324,8 @@ div.checkout_steps_buttons {
 }
 
 .form-group.price_donate.active input {
-    color: #fff;
-    background-color: #d20028;
+    color: #fff !important;
+    background-color: #d20028 !important;
 }
 
 /* Fix strange container behaviour... */
@@ -364,4 +364,16 @@ div.checkout_steps_buttons {
 .product_price.mt16 {
     margin-top: 0 !important;
     margin-bottom: 20px !important;
+}
+
+.price_donate::before {
+    content: "Anderen Betrag wählen";
+    display: block;
+    font-size: 16px;
+    color: #777;
+    padding: 8px;
+}
+
+.price_donate:not(.active) input {
+    color: transparent;
 }

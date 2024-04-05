@@ -35,7 +35,11 @@ function setupPriceDonate() {
     if (price_suggestions) {
         const urlParams = new URLSearchParams(window.location.search);
         let suggestionMatched = false;
-        const suppliedPriceDonate = urlParams.get('price_donate');
+        let suppliedPriceDonate = urlParams.get('price_donate');
+
+        if (!suppliedPriceDonate) {
+            suppliedPriceDonate = priceDonate.value;
+        }
 
         for (let i = 0; i < price_suggestions.length; i++) {
             price_suggestions.item(i).addEventListener("click", function(e) {
@@ -43,7 +47,7 @@ function setupPriceDonate() {
                 e.currentTarget.parentElement.classList.add("active");
             });
 
-            if (price_suggestions.item(i).value == suppliedPriceDonate) {
+            if (suppliedPriceDonate && Number(price_suggestions.item(i).value) == Number(suppliedPriceDonate)) {
                 suggestionMatched = true;
                 price_suggestions.item(i).parentElement.classList.add("active");
             }

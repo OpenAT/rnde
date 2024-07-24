@@ -37,7 +37,7 @@ function setupPriceDonate() {
         let suggestionMatched = false;
         let suppliedPriceDonate = urlParams.get('price_donate');
 
-        if (!suppliedPriceDonate) {
+        if (!suppliedPriceDonate && priceDonate) {
             suppliedPriceDonate = priceDonate.value;
         }
 

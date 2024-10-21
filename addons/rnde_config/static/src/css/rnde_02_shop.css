@@ -190,7 +190,9 @@ div.checkout_steps_buttons {
 #payment_intervals input[type='radio'] {
     accent-color: #d20028;
 }
-#payment_intervals .form-group::after {
+
+/* PROD54: Pfeil überall außer bei Produkt 54 anzeigen */
+body:not([data-latest-product-id="54"]) #payment_intervals .form-group::after {
     content: "";
     display: inline-block;
     width: 100%;
@@ -222,7 +224,8 @@ div.checkout_steps_buttons {
     vertical-align: bottom;
 }
 
-#payment_intervals::after {
+/* PROD54: Text überall außer bei Produkt 54 anzeigen */
+body:not([data-latest-product-id="54"]) #payment_intervals::after {
     content: "Regelmäßige Spenden helfen uns dauerhaft zu helfen.";
     display: block;
     margin: 8px;
